@@ -1,0 +1,265 @@
+html {
+    font-size: 16px;
+    font-family: "franklin-gothic-urw", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:visited {
+    color: #0071bc;
+}
+
+#map {
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.corner-link {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+}
+
+.corner-image {
+    width: 100px;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.corner-image:hover {
+    opacity: 1;
+}
+
+#header {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#header h1,
+#header h2 {
+    margin: 0;
+    padding: 2vh 30vw;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-size: 4.5rem;
+    font-style: bold;
+}
+
+.start-button {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-family: "franklin-gothic-urw", sans-serif;
+    letter-spacing: 0.2rem;
+    border: solid 2px #fff;
+    transition: background 0.3s ease-in-out;
+}
+
+.start-button:hover {
+    background-color: #a4343a;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #000;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer {
+    width: 100%;
+    min-height: 5vh;
+    padding: 2vh 0;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    position: relative;
+    z-index: 5;
+    background-color: #DBCEC2;
+    border-radius: 0;
+    border-top: 2px solid #fff;
+}
+
+#footer p {
+    text-align: left;
+    margin-left: 5%;
+}
+
+#footer a {
+    color: #304b7e;
+    font-weight: bold;
+}
+
+#footer a:visited {
+    color: #000;
+}
+
+#features {
+    padding: 10vh 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.centered {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.lefty {
+    width: 33vw;
+    margin-left: 5vw;
+}
+
+.righty {
+    width: 33vw;
+    margin-left: 62vw;
+}
+
+.fully {
+    width: 100%;
+    margin: auto;
+}
+
+.main {
+    color: #fafafa;
+}
+
+.step {
+    padding-bottom: 50vh;
+    opacity: 0.25;
+    min-height: 50vh;
+}
+
+.step.active {
+    opacity: 0.9999;
+}
+
+.step div {
+    padding: 25px 50px;
+    line-height: 25px;
+    font-size: 13px;
+    background-color: #e2ccbb;
+    color: #000;
+    border-radius: 42px;
+    border: 2px solid #FFF;
+    background: #DBCEC2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.step img {
+    width: 100%;
+}
+
+
+.step {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.legend {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    color: #E4E4E4;
+    padding: 10px 50px;
+    z-index: 1000;
+    font-weight: 700;
+}
+
+.legend.active {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    color: #E4E4E4;
+    padding: 10px 50px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-item span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #616162;
+}
+
+@media (max-width: 750px) {
+
+    .centered,
+    .lefty,
+    .righty,
+    .fully {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+    touch-action: unset;
+}
+
+@media (max-width: 600px) {
+    .mapboxgl-ctrl-globe-minimap {
+        display: none !important;
+    }
+}
