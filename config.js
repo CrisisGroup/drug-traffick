@@ -52,7 +52,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Trafficking requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<div class="spacer"></div>' + 'Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. <strong>Competition among criminal groups for a piece of the market is fierce.</strong>',
+            description: 'Trafficking requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + 'Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. <strong>Competition among criminal groups for a piece of the market is fierce.</strong>',
             location: {
                 center: [-40.92406, 14.59357],
                 zoom: 2,
@@ -76,7 +76,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Yet even amid this chaotic picture, there are clear hierarchies among criminal groups largely based on the tasks they perform along the drug pipeline.' + '<div class="spacer"></div>' + 'Each organisational tier sub-contracts certain functions out to increasingly smaller allies, down to the most local level.' + '<div class="spacer"></div>' + 'While each drug and route differs, broadly speaking, <strong>profits and income tend to cluster at the top, among the most powerful financiers and international traffickers, while violence toward communities is most widespread at the bottom, where gangs and local groups exercise coercive control.</strong>',
+            description: 'Yet even amid this chaotic picture, there are clear hierarchies among criminal groups largely based on the tasks they perform along the drug pipeline.' + '<br /><br />' + 'Each organisational tier sub-contracts certain functions out to increasingly smaller allies, down to the most local level.' + '<br /><br />' + 'While each drug and route differs, broadly speaking, <strong>profits and income tend to cluster at the top, among the most powerful financiers and international traffickers, while violence toward communities is most widespread at the bottom, where gangs and local groups exercise coercive control.</strong>',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -124,7 +124,7 @@ var config = {
             hidden: false,
             title: 'The Cocaine Route',
             image: '',
-            description: 'COCA CULTIVATION' + '<div class="spacer"></div>' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<div class="spacer"></div>' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
+            description: 'COCA CULTIVATION' + '<br /><br />' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -172,7 +172,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<div class="spacer"></div>' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
+            description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<br /><br />' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -196,7 +196,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS' + '<div class="spacer"></div>' + 'Coca base paste is refined into cocaine in labs under the protection of national criminal groups, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<div class="spacer"></div>' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
+            description: 'COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS' + '<br /><br />' + 'Coca base paste is refined into cocaine in labs under the protection of national criminal groups, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -220,7 +220,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<div class="spacer"></div>' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<div class="spacer"></div>' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
+            description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -244,7 +244,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<div class="spacer"></div>' + '<em>Social leader in Sucre, Colombia</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<br /><br />' + '<em>Social leader in Sucre, Colombia</em>',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
