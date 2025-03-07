@@ -660,6 +660,246 @@ var config = {
             onChapterExit: [
                 
             ]
+        },
+        {
+            id: 'FENTANYL-8',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Transport to market along roads and by boat to the United States largely falls under the jurisdiction of these international traffickers, who fight violent battles to control turf and secure routes.' + '<br /><br />' + 'Penetration of the security forces and local authorities is also fundamental for business.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-8',
+            alignment: 'left',
+            hidden: false,
+            title: 'SUBCONTRACTORS - NATIONAL/LOCAL GROUPS',
+            image: '',
+            description: 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-9',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'These local groups are deeply violent, imposing their criminal control through extortion, recruitment, and targeted killing. Often, they have forged ties to local authorities and security forces to facilitate business.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-10',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up.’”' + '<br /><br />' + '<em>Local journalist in Baja California</em>',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-11',
+            alignment: 'center',
+            hidden: false,
+            title: 'DOMESTIC MARKET',
+            image: '',
+            description: 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-12',
+            alignment: 'center',
+            hidden: false,
+            title: 'DOMESTIC MARKET',
+            image: '',
+            description: 'Residents describe these individuals’ behavior as unpredictable; while some control petty crime and discourage violence, others prey on the population and violently target rivals or those who would question criminal governance.' + '<br /><br />' + 'Access to arms and drugs are major lures for local groups to forge ties with larger traffickers; these tools facilitate their movement into extractive businesses including human trafficking, kidnapping and extortion.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-13',
+            alignment: 'left',
+            hidden: false,
+            title: 'INTERNATIONAL TRAFFICKERS',
+            image: '',
+            description: 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-14',
+            alignment: 'left',
+            hidden: false,
+            title: 'FINANCIERS',
+            image: '',
+            description: 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'FENTANYL-15',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<br /><br />' + 'US Indictment of Chapitos',
+            location: {
+                center: [-103.26209, 18.21721],
+                zoom: 5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'END',
+            alignment: 'none',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
         }
     ]
 };
