@@ -260,3 +260,9 @@ p {
         display: none !important;
     }
 }
+
+/* CHAPTER OVERRIDES */
+
+#COCAINE .main {
+    background-color: #944141 !important;
+}
