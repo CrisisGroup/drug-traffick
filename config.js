@@ -188,7 +188,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + '<br /><br />' + 'Coca base paste is refined into cocaine in labs under the protection of national criminal groups, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
+            description: '<h4>COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -256,11 +256,11 @@ var config = {
         },
         {
             id: 'COCAINE-6',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
-            description: 'SUBCONTRACTORS - LOCAL GANGS' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
+            description: '<h4>SUBCONTRACTORS - LOCAL GANGS</h4>' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -328,11 +328,11 @@ var config = {
         },
         {
             id: 'COCAINE-9',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
-            description: 'TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS' + '<br /><br />' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.',
+            description: '<h4>TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -399,12 +399,36 @@ var config = {
             ]
         },
         {
+            id: 'COCAINE-12A',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<h4>STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last moment needed change of route.',
+            location: {
+                center: [23.96141, 8.17259],
+                zoom: 2.5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
             id: 'COCAINE-12',
             alignment: 'left',
             hidden: false,
-            title: 'FINANCIERS',
+            title: '',
             image: '',
-            description: 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
+            description: '<h4>FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -476,7 +500,7 @@ var config = {
             hidden: false,
             title: 'The Fentanyl Route',
             image: '',
-            description: 'PRECURSORS - BROKERS' + '<br /><br />' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
+            description: '<strong>PRECURSORS - BROKERS</strong>' + '<br /><br />' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -546,13 +570,13 @@ var config = {
             id: 'FENTANYL-3',
             alignment: 'left',
             hidden: false,
-            title: 'LOCAL/NATIONAL GROUP',
+            title: '',
             image: '',
-            description: 'Successfully bringing chemicals into Mexico often requires control of ports, penetration of port staff and corruption in the security forces.' + '<br /><br />' + 'Criminal groups compete fiercely for this control, fighting turf wars and threatening functionaries who do not comply with their demands.',
+            description: '<h4>LOCAL/NATIONAL GROUP</h4>' + 'Successfully bringing chemicals into Mexico often requires control of ports, penetration of port staff and corruption in the security forces.' + '<br /><br />' + 'Criminal groups compete fiercely for this control, fighting turf wars and threatening functionaries who do not comply with their demands.',
             location: {
-                center: [114.97610, 23.43231],
-                zoom: 3.5,
-                pitch: 12,
+                center: [-108.27634, 19.53883],
+                zoom: 5,
+                pitch: 0,
                 bearing: 0,
                 speed: .4
             },
@@ -568,7 +592,7 @@ var config = {
         },
         {
             id: 'FENTANYL-4',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
@@ -592,11 +616,11 @@ var config = {
         },
         {
             id: 'FENTANYL-5',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
-            title: 'FENTANYL SYNTHESIS',
+            title: '',
             image: '',
-            description: 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.',
+            description: '<h4>FENTANYL SYNTHESIS</h4>' + 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.' + '<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -642,9 +666,9 @@ var config = {
             id: 'FENTANYL-7',
             alignment: 'left',
             hidden: false,
-            title: 'PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS',
+            title: '',
             image: '',
-            description: 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.',
+            description: '<h4>PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -690,9 +714,9 @@ var config = {
             id: 'FENTANYL-8',
             alignment: 'left',
             hidden: false,
-            title: 'SUBCONTRACTORS - NATIONAL/LOCAL GROUPS',
+            title: '',
             image: '',
-            description: 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
+            description: '<h4>SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
