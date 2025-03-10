@@ -122,7 +122,7 @@ p {
     font-size: 13px;
     position: relative;
     z-index: 5;
-    background-color: #000;
+    background-color: #181818;
     border-radius: 0;
     border-top: 2px solid #fff;
 }
@@ -138,7 +138,7 @@ p {
 }
 
 #footer a:visited {
-    color: #000;
+    color: #181818;
 }
 
 #features {
@@ -150,7 +150,7 @@ p {
 }
 
 .centered {
-    width: 50vw;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -188,7 +188,7 @@ p {
     padding: 25px 50px;
     line-height: 25px;
     font-size: 13px;
-    background-color: #000;
+    background-color: #181818;
     color: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -262,7 +262,26 @@ p {
     }
 }
 
-/* CHAPTER OVERRIDES */
+/*----------------- CHAPTER OVERRIDES -------------------*/
+
+/* QUOTE BOXES */
+
+.centered .main {
+    background-color: #944141;
+}
+
+.centered .main p {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.centered .main em {
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+/* END QUOTES */
 
 #INTRO .main {
     border: none !important;
@@ -283,16 +302,16 @@ p {
 }
 
 #INTRO .main p {
-    background-color: #000;
+    background-color: #181818;
     padding: 25px 50px;
-    width: 25%;
-    margin: 10% 0 10% 15%;
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
     border: solid .25px #fff;
 }
 
 #INTRO03 .main p {
-    width: 25%;
-    margin: 10% 0 10% 15%;
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
 }
 
 #COCAINE .main {
@@ -302,6 +321,6 @@ p {
 }
 
 #COCAINE .main h3 {
-    color: #000 !important;
+    color: #181818 !important;
     font-size: 12em;
 }

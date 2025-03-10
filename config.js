@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm7sykztn00ov01sb1mrs5i3f',
+    style: 'mapbox://styles/daltonwb/cm7yuvp5800so01qs4gjx90cc',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -184,11 +184,11 @@ var config = {
         },
         {
             id: 'COCAINE-3',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
-            description: 'COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS' + '<br /><br />' + 'Coca base paste is refined into cocaine in labs under the protection of national criminal groups, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
+            description: '<h4>COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + '<br /><br />' + 'Coca base paste is refined into cocaine in labs under the protection of national criminal groups, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -328,7 +328,7 @@ var config = {
         },
         {
             id: 'COCAINE-9',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
