@@ -712,7 +712,7 @@ var config = {
         },
         {
             id: 'FENTANYL-8',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
@@ -784,11 +784,11 @@ var config = {
         },
         {
             id: 'FENTANYL-11',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
-            title: 'DOMESTIC MARKET',
+            title: '',
             image: '',
-            description: 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
+            description: '<h4>DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -810,7 +810,7 @@ var config = {
             id: 'FENTANYL-12',
             alignment: 'center',
             hidden: false,
-            title: 'DOMESTIC MARKET',
+            title: '',
             image: '',
             description: 'Residents describe these individuals’ behavior as unpredictable; while some control petty crime and discourage violence, others prey on the population and violently target rivals or those who would question criminal governance.' + '<br /><br />' + 'Access to arms and drugs are major lures for local groups to forge ties with larger traffickers; these tools facilitate their movement into extractive businesses including human trafficking, kidnapping and extortion.',
             location: {
@@ -832,11 +832,11 @@ var config = {
         },
         {
             id: 'FENTANYL-13',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
-            title: 'INTERNATIONAL TRAFFICKERS',
+            title: '',
             image: '',
-            description: 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
+            description: '<h4>INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -856,11 +856,11 @@ var config = {
         },
         {
             id: 'FENTANYL-14',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
-            title: 'FINANCIERS',
+            title: '',
             image: '',
-            description: 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
+            description: '<h4>FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,

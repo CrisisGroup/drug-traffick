@@ -99,7 +99,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 15px;
     color: #b25954;
@@ -125,7 +125,10 @@ p {
     z-index: 5;
     background-color: #181818;
     border-radius: 0;
-    border-top: 2px solid #fff;
+    border-top: solid 2px #A5A5A5;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 #footer p {
@@ -172,7 +175,7 @@ p {
 
 .main {
     color: #fafafa;
-    border: solid .25px #fff;
+    border: solid .25px #A5A5A5;
 }
 
 .step {
@@ -307,7 +310,7 @@ p {
     padding: 25px 50px;
     width: 27vw;
     margin: 10vw 0 0 5vw;
-    border: solid .25px #fff;
+    border: solid .25px #A5A5A5;
 }
 
 #INTRO03 .main p {
@@ -340,7 +343,7 @@ p {
     padding: 25px 50px;
     width: 27vw;
     margin: 10vw 0 0 5vw;
-    border: solid .25px #fff;
+    border: solid .25px #A5A5A5;
 }
 
 #COCAINE-6 .main {
@@ -382,7 +385,7 @@ p {
     padding: 25px 50px;
     width: 27vw;
     margin: 10vw 0 0 5vw;
-    border: solid .25px #fff;
+    border: solid .25px #A5A5A5;
 }
 
 #FENTANYL-5 .main {
@@ -399,5 +402,67 @@ p {
     padding: 25px 50px;
     width: 27vw;
     margin: 10vw 0 0 5vw;
-    border: solid .25px #fff;
+    border: solid .25px #A5A5A5;
+}
+
+#FENTANYL-8 .main {
+    border: none !important;
+    background-image: url(../images/maersk.png);
+    background-position: top center;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#FENTANYL-8 .main p {
+    background-color: #181818;
+    padding: 25px 50px;
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
+    border: solid .25px #A5A5A5;
+}
+
+#FENTANYL-11 .main {
+    border: none !important;
+    background-image: url(../images/coca_pile.png);
+    background-position: top right;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#FENTANYL-11 .main p {
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
+}
+
+#FENTANYL-13 .main {
+    border: none !important;
+    background-image: url(../images/maersk.png);
+    background-position: top center;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#FENTANYL-13 .main p {
+    background-color: #181818;
+    padding: 25px 50px;
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
+    border: solid .25px #A5A5A5;
+}
+
+#FENTANYL-14 .main {
+    border: none !important;
+    background-image: url(../images/coca_pile.png);
+    background-position: top right;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#FENTANYL-14 .main p {
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
 }
