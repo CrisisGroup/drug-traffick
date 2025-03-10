@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/daltonwb/cm7sykztn00ov01sb1mrs5i3f',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
-    inset: true,
+    inset: false,
     insetOptions: {
         markerColor: '#a4343a'
     },
@@ -16,16 +16,17 @@ var config = {
     chapters: [
         {
             id: 'INTRO', // Always use INTRO as first chapter name
-            alignment: 'none',
+            alignment: 'full',
             hidden: false,
-            title: 'Violence spans the complex supply chain that moves drugs from Latin America to consumer markets.',
+            title: '',
             image: '',
-            description: 'Years of law enforcement crackdowns have fractured dominant armed organisations and spawned a new generation of more flexible and dispersed groups.',
+            description: '<strong>Violence spans the complex supply chain that moves drugs from Latin America to consumer markets.</strong>' + '<br /><br />' + 'Years of law enforcement crackdowns have fractured dominant armed organisations and spawned a new generation of more flexible and dispersed groups.',
             location: {
-                center: [34.36204, 31.43325],
-                zoom: 7,
+                center: [-41.84164, 17.58858],
+                zoom: 2.15,
                 pitch: 0,
-                bearing: 0
+                bearing: 0,
+                speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -39,20 +40,20 @@ var config = {
         },
         {
             id: 'INTRO02',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
             description: 'Trafficking requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + 'Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. <strong>Competition among criminal groups for a piece of the market is fierce.</strong>',
             location: {
-                center: [-40.92406, 14.59357],
+                center: [-49.59590, 17.18238],
                 zoom: 2,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -63,7 +64,7 @@ var config = {
         },
         {
             id: 'INTRO03',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
@@ -76,7 +77,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -91,7 +92,7 @@ var config = {
             hidden: false,
             title: 'Follow a journey from production to market',
             image: '',
-            description: '',
+            description: '<button class="start-button">COCAINE</button>' + '<button class="start-button">FENTANYL</button>',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -100,7 +101,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -124,7 +125,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -148,7 +149,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -172,7 +173,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -196,7 +197,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -220,7 +221,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -244,7 +245,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -268,7 +269,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -292,7 +293,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -316,7 +317,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -340,7 +341,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -364,7 +365,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -388,7 +389,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -412,7 +413,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -436,7 +437,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -460,7 +461,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
@@ -484,7 +485,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 
