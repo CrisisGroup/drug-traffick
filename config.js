@@ -22,11 +22,10 @@ var config = {
             image: '',
             description: '<strong>Violence spans the complex supply chain that moves drugs from Latin America to consumer markets.</strong>' + '<br /><br />' + 'Years of law enforcement crackdowns have fractured dominant armed organisations and spawned a new generation of more flexible and dispersed groups.',
             location: {
-                center: [-41.84164, 17.58858],
-                zoom: 2.15,
-                pitch: 0,
-                bearing: 0,
-                speed: .4
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -40,17 +39,16 @@ var config = {
         },
         {
             id: 'INTRO02',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
             description: 'Trafficking requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + 'Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. <strong>Competition among criminal groups for a piece of the market is fierce.</strong>',
             location: {
-                center: [-49.59590, 17.18238],
-                zoom: 2,
-                pitch: 0,
-                bearing: 0,
-                speed: .4
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -70,11 +68,10 @@ var config = {
             image: '',
             description: 'Yet even amid this chaotic picture, there are clear hierarchies among criminal groups largely based on the tasks they perform along the drug pipeline.' + '<br /><br />' + 'Each organisational tier sub-contracts certain functions out to increasingly smaller allies, down to the most local level.' + '<br /><br />' + 'While each drug and route differs, broadly speaking, <strong>profits and income tend to cluster at the top, among the most powerful financiers and international traffickers, while violence toward communities is most widespread at the bottom, where gangs and local groups exercise coercive control.</strong>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
-                speed: .4
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -92,13 +89,12 @@ var config = {
             hidden: false,
             title: 'Follow a journey from production to market',
             image: '',
-            description: '<button class="start-button">COCAINE</button>' + '<button class="start-button">FENTANYL</button>',
+            description: '<button class="chapter-button" id="scrollToCocaine">COCAINE</button>' + '<button class="chapter-button" id="scrollToFentanyl">FENTANYL</button>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
-                speed: .4
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -285,6 +281,30 @@ var config = {
             title: '',
             image: '',
             description: 'Gangs also manage local drug sales. National groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.' + '<br /><br />' + 'Local gangs exert deep levels of violence against the civilian population, including recruiting young people and children, sexual violence, and extortion. The violent turf wars to secure sales often affect the communities where they operate.',
+            location: {
+                center: [23.96141, 8.17259],
+                zoom: 2.5,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'COCAINE-8A',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,

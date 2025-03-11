@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     font-family: "franklin-gothic-urw", sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -73,7 +74,8 @@ a:visited {
     font-style: bold;
 }
 
-.start-button {
+.start-button, 
+.chapter-button {
     cursor: pointer;
     margin-top: 1rem;
     padding: 1rem 1.5rem;
@@ -88,8 +90,13 @@ a:visited {
     transition: background 0.3s ease-in-out;
 }
 
-.start-button:hover {
+.start-button:hover, 
+.chapter-button:hover {
     background-color: #a4343a;
+}
+
+#scrollToCocaine {
+    margin-right: 5%;
 }
 
 h3 {
@@ -171,6 +178,7 @@ p {
 .fully {
     width: 100%;
     margin: auto;
+    padding-bottom: 0 !important;
 }
 
 .main {
@@ -180,7 +188,7 @@ p {
 
 .step {
     padding-bottom: 50vh;
-    opacity: 0.25;
+    opacity: 0.9999;
     min-height: 100vh;
 }
 
@@ -296,6 +304,15 @@ p {
     background-repeat: no-repeat;
 }
 
+#INTRO02 .main {
+    border: none !important;
+    background-image: url(../images/coca_pile.png);
+    background-position: top right;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #INTRO03 .main {
     border: none !important;
     background-image: url(../images/coca_pile.png);
@@ -313,9 +330,15 @@ p {
     border: solid .25px #A5A5A5;
 }
 
-#INTRO03 .main p {
+#INTRO02 .main p, #INTRO03 .main p {
     width: 27vw;
     margin: 10vw 0 0 5vw;
+}
+
+#INTRO04 .main {
+    margin-top: 50vh;
+    text-align: center;
+    background-color: #181818;
 }
 
 #COCAINE .main {
