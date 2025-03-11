@@ -884,7 +884,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<br /><br />' + 'US Indictment of Chapitos',
+            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<br /><br />' + '<em>US Indictment of Chapitos</em>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,

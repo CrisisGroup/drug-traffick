@@ -282,7 +282,7 @@ p {
 .centered .main em {
     font-size: 2rem;
     font-weight: lighter;
-    font-family: serif;
+    font-family: "PT Serif", serif;
 }
 
 /* END QUOTES */
