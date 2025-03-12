@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm861psob009w01s5gw3z6pkz',
+    style: 'mapbox://styles/daltonwb/cm866we9900cu01qv4ao7gkt1',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -296,22 +296,27 @@ var config = {
         },
         {
             id: 'COCAINE-3',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
             description: '<h4>COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-79.913222, -2.227940],
+                zoom: 14,
+                pitch: 70,
+                bearing: 50,
                 speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 1,
+                },
                 {
                     layer: "los_rios_fill",
                     duration: 2000,
@@ -339,7 +344,11 @@ var config = {
                 },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -357,7 +366,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
@@ -1501,7 +1510,7 @@ var config = {
             ]
         },
         {
-            id: 'FENTANYL-8',
+            id: 'FENTANYL-8A',
             alignment: 'left',
             hidden: false,
             title: '',

@@ -9,10 +9,14 @@ body {
     padding: 0;
 }
 
-a,
+a {
+    color: #B25954;
+    font-weight: bold;
+}
+
 a:hover,
 a:visited {
-    color: #0071bc;
+    color: #fff;
 }
 
 #map {
@@ -74,6 +78,14 @@ a:visited {
     font-style: bold;
 }
 
+@media (max-width: 1024px) {
+    #header h1,
+    #header h2
+     {
+        padding: 2vh 0vw;  
+    }
+}
+
 .start-button, 
 .chapter-button {
     cursor: pointer;
@@ -115,7 +127,7 @@ h4 {
 p {
     color: #fff;
     font-family: "franklin-gothic-urw", sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -141,15 +153,6 @@ p {
 #footer p {
     text-align: left;
     margin-left: 5%;
-}
-
-#footer a {
-    color: #304b7e;
-    font-weight: bold;
-}
-
-#footer a:visited {
-    color: #181818;
 }
 
 #features {
@@ -297,7 +300,7 @@ p {
 
 #INTRO .main {
     border: none !important;
-    background-image: url(../images/maersk.png);
+    background-image: url(../images/drug_scrolly-09.jpg);
     background-position: top center;
     height: 100vh;
     background-size: contain;
@@ -306,7 +309,7 @@ p {
 
 #INTRO02 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/pyramid.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -315,7 +318,7 @@ p {
 
 #INTRO03 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/cocaine_intro.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -332,7 +335,7 @@ p {
 
 #INTRO02 .main p, #INTRO03 .main p {
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vw 0 0 8.5vw;
 }
 
 #INTRO04 .main {
@@ -352,26 +355,9 @@ p {
     font-size: 6em;
 }
 
-#COCAINE-3 .main {
-    border: none !important;
-    background-image: url(../images/maersk.png);
-    background-position: top center;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#COCAINE-3 .main p {
-    background-color: #181818;
-    padding: 25px 50px;
-    width: 27vw;
-    margin: 10vw 0 0 5vw;
-    border: solid .25px #A5A5A5;
-}
-
 #COCAINE-6 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/cocaine_intro.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -396,7 +382,7 @@ p {
 
 #FENTANYL-4 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/cocaine_intro.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -447,7 +433,7 @@ p {
 
 #FENTANYL-11 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/cocaine_intro.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -478,7 +464,7 @@ p {
 
 #FENTANYL-14 .main {
     border: none !important;
-    background-image: url(../images/coca_pile.png);
+    background-image: url(../images/cocaine_intro.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
