@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm83cci9f000p01s85zhf679x',
+    style: 'mapbox://styles/daltonwb/cm861psob009w01s5gw3z6pkz',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -124,7 +124,36 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "cauca_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "norte_santander_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "narino_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -148,7 +177,36 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0.7,
+                },
+                {
+                    layer: "colombia",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "cauca_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "norte_santander_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "putumayo_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "narino_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -172,10 +230,68 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0.7,
+                },
+                {
+                    layer: "colombia",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "cauca_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "norte_santander_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "putumayo_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "narino_province_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "cauca_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "norte_santander_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "narino_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -196,7 +312,31 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -210,17 +350,41 @@ var config = {
             image: '',
             description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-79.91784, -2.22528],
+                zoom: 11,
+                pitch: 50,
+                bearing: 29,
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -234,17 +398,41 @@ var config = {
             image: '',
             description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<br /><br />' + '<em>Social leader in Sucre, Colombia</em>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-79.91784, -2.22528],
+                zoom: 11,
+                pitch: 50,
+                bearing: 29,
                 speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -258,17 +446,41 @@ var config = {
             image: '',
             description: '<h4>SUBCONTRACTORS - LOCAL GANGS</h4>' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-79.91784, -2.22528],
+                zoom: 11,
+                pitch: 50,
+                bearing: 29,
                 speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -282,9 +494,9 @@ var config = {
             image: '',
             description: 'Gangs also manage local drug sales. National groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.' + '<br /><br />' + 'Local gangs exert deep levels of violence against the civilian population, including recruiting young people and children, sexual violence, and extortion. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
-                center: [-79.91601, -2.21700],
-                zoom: 11.5,
-                pitch: 59,
+                center: [-79.91784, -2.22528],
+                zoom: 11,
+                pitch: 50,
                 bearing: 29,
                 speed: .4
             },
@@ -292,10 +504,58 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "los-rios",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "ecuador",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -388,7 +648,51 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -412,10 +716,88 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -436,7 +818,31 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guatemala_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guatemala",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -460,7 +866,56 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "belgium_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guayakil-antwerp-line",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -484,7 +939,56 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "belgium_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guayakil-antwerp-line",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -508,10 +1012,108 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "belgium_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guayakil-antwerp-line",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "belgium_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guayakil-antwerp-line",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -556,10 +1158,48 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "china",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "india",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "india_fill",
+                    duration: 2000,
+                    opacity: 0.7,
+                },
+                {
+                    layer: "china_fill",
+                    duration: 2000,
+                    opacity: 0.7,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "china",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "india",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "india_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "china_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -580,10 +1220,78 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "panama_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "costa-rica_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -604,10 +1312,58 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "manzanillo",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "manzanillo_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -676,10 +1432,48 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
