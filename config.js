@@ -136,10 +136,10 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Farmers’ contact with coca traffickers puts them at <strong>constant risk for violence</strong>, including extortion, recruitment of children, and sexual violence, particularly against rural women heads of household.',
+            description: 'Where <strong>coca is cultivated</strong>, such as in the enclaves of production shown here,  farmers’ contact with traffickers puts them at constant risk for violence, including extortion, recruitment of children, and sexual violence, particularly against rural women heads of household.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
+                center: [-77.37878, 2.93177],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -282,14 +282,14 @@ var config = {
             image: '',
             description: 'Gangs also manage local drug sales. National groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.' + '<br /><br />' + 'Local gangs exert deep levels of violence against the civilian population, including recruiting young people and children, sexual violence, and extortion. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-79.91601, -2.21700],
+                zoom: 11.5,
+                pitch: 59,
+                bearing: 29,
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 
@@ -378,10 +378,10 @@ var config = {
             image: '',
             description: 'Transnational groups also fuel violence in a number of other ways, such as pouring resources into national allies to ensure they win turf wars against rivals.' + '<br /><br />' + 'Transnational organisations use violence to co-opt and infiltrate government officials, security forces, port workers and shipping companies.' + '<br /><br />' + 'For example, CJNG poured resources into Los Lobos in Ecuador in order to gain a greater share of the market from their primary rival, Los Choneros.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-85.90954, 11.70422],
+                zoom: 4.1,
+                pitch: 40,
+                bearing: -14,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -426,8 +426,8 @@ var config = {
             image: '',
             description: '<h4>STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last moment needed change of route.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
+                center: [-93.04360, 14.41479],
+                zoom: 6.25,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -450,7 +450,7 @@ var config = {
             image: '',
             description: '<h4>FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
             location: {
-                center: [23.96141, 8.17259],
+                center: [-48.84508, 18.79418],
                 zoom: 2.5,
                 pitch: 0,
                 bearing: 0,
@@ -474,7 +474,7 @@ var config = {
             image: '',
             description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain.”' + '<br /><br />' + '<em>Former gang member, Guayaquil, Ecuador</em>',
             location: {
-                center: [23.96141, 8.17259],
+                center: [-48.84508, 18.79418],
                 zoom: 2.5,
                 pitch: 0,
                 bearing: 0,
@@ -498,7 +498,7 @@ var config = {
             image: '',
             description: 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
             location: {
-                center: [23.96141, 8.17259],
+                center: [-48.84508, 18.79418],
                 zoom: 2.5,
                 pitch: 0,
                 bearing: 0,
@@ -540,11 +540,11 @@ var config = {
         },
         {
             id: 'FENTANYL-1',
-            alignment: 'none',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
-            description: '',
+            description: 'The production of the synthetic opioid fentanyl  begins with the import of precursor chemicals, usually from Asia.',
             location: {
                 center: [114.97610, 23.43231],
                 zoom: 3.5,
@@ -570,9 +570,9 @@ var config = {
             image: '',
             description: '“The group uses “brokers in other countries to purchase precursor chemicals from [Chinese] companies on the Cartel’s behalf. Those brokers also assist with ensuring that the precursor chemicals are successfully transported from China to the Cartel in Mexico”' + '<br /><br />' + '<em>U.S. Indictment of Los Chapitos</em>',
             location: {
-                center: [114.97610, 23.43231],
+                center: [-137.88054, 28.74828],
                 zoom: 3.5,
-                pitch: 12,
+                pitch: 0,
                 bearing: 0,
                 speed: .4
             },
@@ -714,10 +714,10 @@ var config = {
             image: '',
             description: 'Transport to market along roads and by boat to the United States largely falls under the jurisdiction of these international traffickers, who fight violent battles to control turf and secure routes.' + '<br /><br />' + 'Penetration of the security forces and local authorities is also fundamental for business.',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
-                pitch: 0,
-                bearing: 0,
+                center: [-108.47314, 25.33654],
+                zoom: 6,
+                pitch: 50,
+                bearing: 20,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -762,8 +762,8 @@ var config = {
             image: '',
             description: 'These local groups are deeply violent, imposing their criminal control through extortion, recruitment, and targeted killing. Often, they have forged ties to local authorities and security forces to facilitate business.',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
+                center: [-102.37980, 24.23877],
+                zoom: 4.25,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -786,8 +786,8 @@ var config = {
             image: '',
             description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up.’”' + '<br /><br />' + '<em>Local journalist in Baja California</em>',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
+                center: [-102.37980, 24.23877],
+                zoom: 4.25,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -834,8 +834,8 @@ var config = {
             image: '',
             description: 'Residents describe these individuals’ behavior as unpredictable; while some control petty crime and discourage violence, others prey on the population and violently target rivals or those who would question criminal governance.' + '<br /><br />' + 'Access to arms and drugs are major lures for local groups to forge ties with larger traffickers; these tools facilitate their movement into extractive businesses including human trafficking, kidnapping and extortion.',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
+                center: [-115.94566, 30.98964],
+                zoom: 6.25,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -906,9 +906,9 @@ var config = {
             image: '',
             description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<br /><br />' + '<em>US Indictment of Chapitos</em>',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
-                pitch: 0,
+                center: [-37.04445, 38.28202],
+                zoom: 2.4,
+                pitch: 25,
                 bearing: 0,
                 speed: .4
             },
