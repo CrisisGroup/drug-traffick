@@ -1518,10 +1518,68 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "sinaloa_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "united states",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "us_sw_state_labels",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "sinaloa_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "united states",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "us_sw_state_labels",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1542,7 +1600,31 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -1566,7 +1648,31 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -1590,10 +1696,58 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1638,10 +1792,58 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "US_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
