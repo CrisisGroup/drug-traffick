@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm87h8v54006701s27a22f3fm',
+    style: 'mapbox://styles/daltonwb/cm87kavzt001f01s90yugca6w',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -593,30 +593,6 @@ var config = {
             ]
         },
         {
-            id: 'COCAINE-8A',
-            alignment: 'full',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '<span class="photocaption" style="color: #000; width: 13em; line-height: 1.25em;">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
-            location: {
-                center: [-80.58557, -2.48186],
-                zoom: 7,
-                pitch: 50,
-                bearing: -12,
-                speed: .4
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                
-            ],
-            onChapterExit: [
-                
-            ]
-        },
-        {
             id: 'COCAINE-8',
             alignment: 'center',
             hidden: false,
@@ -641,12 +617,36 @@ var config = {
             ]
         },
         {
+            id: 'COCAINE-8A',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<span class="photocaption" style="color: #000; width: 13em; line-height: 1.25em;">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
+            location: {
+                center: [-80.58557, -2.48186],
+                zoom: 7,
+                pitch: 50,
+                bearing: -12,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
             id: 'COCAINE-9',
             alignment: 'full',
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.',
+            description: '<h4 class="subheds-black">TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.<br /><br />',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -682,11 +682,6 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 1,
-                },
                 {
                     layer: "US_fill",
                     duration: 2000,
@@ -727,6 +722,61 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "guatemala_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+               /*  {
+                    layer: "bq",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: " bq_label",
+                    duration: 2000,
+                    opacity: 1,
+                }, */
+                {
+                    layer: "santa_marta_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "santa_marta",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "cartagena_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "cartagena",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guaymas_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guaymas",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 
@@ -740,10 +790,10 @@ var config = {
             image: '',
             description: '“The Mexicans have divided the enclaves up between them; they intervene and look for strong leaders and groups, and the logic then is to double them in size. Including with the influx of so many guns and of drug trafficking”.' + '<br /><br />' + '<em>Former gang member, Guayaquil, Ecuador</em>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-85.90954, 11.70422],
+                zoom: 4.1,
+                pitch: 40,
+                bearing: -14,
                 speed: .4
             },
             mapAnimation: 'flyTo',

@@ -479,17 +479,37 @@ p {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 50vh;
+}
+
+#COCAINE-8A .main::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust the height of the fade effect */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    pointer-events: none; /* Ensures it doesn’t interfere with interactions */
 }
 
 #COCAINE-9 .main {
     border: none !important;
     background-image: url(../images/drug-scrolly-1.jpg);
-    background-position: center center;
     height: 100vh;
-    background-size: 80% 90%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50vh;
+}
+
+#COCAINE-9 .main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust the height of the fade effect */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    pointer-events: none; /* Ensures it doesn’t interfere with interactions */
 }
 
 #COCAINE-9 .main p {
