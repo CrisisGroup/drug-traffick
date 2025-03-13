@@ -78,15 +78,24 @@ a:visited {
     font-style: bold;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
+
     #header h1,
-    #header h2
-     {
-        padding: 2vh 0vw;  
+    #header h2 {
+        padding: 2vh 15vw;
+        font-size: 3.5rem;
     }
 }
 
-.start-button, 
+@media (max-width: 1024px) {
+
+    #header h1,
+    #header h2 {
+        padding: 2vh 0vw;
+    }
+}
+
+.start-button,
 .chapter-button {
     cursor: pointer;
     margin-top: 1rem;
@@ -102,7 +111,7 @@ a:visited {
     transition: background 0.3s ease-in-out;
 }
 
-.start-button:hover, 
+.start-button:hover,
 .chapter-button:hover {
     background-color: #a4343a;
 }
@@ -277,9 +286,9 @@ p {
     }
 }
 
-/*----------------- CHAPTER OVERRIDES -------------------*/
 
-/* QUOTE BOXES */
+
+
 
 .centered .main {
     background-color: #944141;
@@ -296,7 +305,23 @@ p {
     font-family: "PT Serif", serif;
 }
 
-/* END QUOTES */
+.violence {
+    background-color: #382323;
+    color: #B25954;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.profit {
+    background-color: #f5f5f5;
+    color: #000;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
 
 #INTRO .main {
     border: none !important;
@@ -318,7 +343,7 @@ p {
 
 #INTRO03 .main {
     border: none !important;
-    background-image: url(../images/cocaine_intro.png);
+    background-image: url(../images/pyramid.png);
     background-position: top right;
     height: 100vh;
     background-size: contain;
@@ -333,8 +358,9 @@ p {
     border: solid .25px #A5A5A5;
 }
 
-#INTRO02 .main p, #INTRO03 .main p {
-    width: 27vw;
+#INTRO02 .main p,
+#INTRO03 .main p {
+    width: 31vw;
     margin: 10vw 0 0 8.5vw;
 }
 

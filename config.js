@@ -20,7 +20,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<strong>Violence spans the complex supply chain that moves drugs from Latin America to consumer markets.</strong>' + '<br /><br />' + 'Years of law enforcement crackdowns have fractured dominant armed organisations and spawned a new generation of more flexible and dispersed groups.',
+            description: '<strong><span class="violence">Violence</span> spans the complex supply chain that moves drugs from Latin America to consumer markets.</strong>' + '<br /><br />' + 'Years of law enforcement crackdowns have fractured dominant armed organisations and spawned a new generation of more flexible and dispersed groups.',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
@@ -66,7 +66,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Yet even amid this chaotic picture, there are clear hierarchies among criminal groups largely based on the tasks they perform along the drug pipeline.' + '<br /><br />' + 'Each organisational tier sub-contracts certain functions out to increasingly smaller allies, down to the most local level.' + '<br /><br />' + 'While each drug and route differs, broadly speaking, <strong>profits and income tend to cluster at the top, among the most powerful financiers and international traffickers, while violence toward communities is most widespread at the bottom, where gangs and local groups exercise coercive control.</strong>',
+            description: 'Yet even amid this chaotic picture, there are clear hierarchies among criminal groups largely based on the tasks they perform along the drug pipeline.' + '<br /><br />' + 'Each organisational tier sub-contracts certain functions out to increasingly smaller allies, down to the most local level.' + '<br /><br />' + 'While each drug and route differs, broadly speaking, <strong><span class="profit">profits and income</span> tend to cluster at the top, among the most powerful financiers and international traffickers, while <span class="violence">violence</span> toward communities is most widespread at the bottom, where gangs and local groups exercise coercive control.</strong>',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
