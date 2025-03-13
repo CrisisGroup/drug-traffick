@@ -313,8 +313,9 @@ p {
 .centered .main p {
     font-size: 2rem;
     font-weight: bold;
-    text-indent: -0.4em;  /* Moves the first character slightly left */
-    padding-left: 0.4em; 
+    text-indent: -0.4em;
+    /* Moves the first character slightly left */
+    padding-left: 0.4em;
 }
 
 .centered .main em {
@@ -323,8 +324,9 @@ p {
     font-family: "PT Serif", serif;
     margin-top: 25px;
     display: block;
-    text-indent: 0;  /* Moves the first character slightly left */
-    padding-left: 0; 
+    text-indent: 0;
+    /* Moves the first character slightly left */
+    padding-left: 0;
 }
 
 /* SPAN HIGHLIGHTS/INLINE STYLES */
@@ -478,6 +480,24 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50vh;
+}
+
+#COCAINE-9 .main {
+    border: none !important;
+    background-image: url(../images/drug-scrolly-1.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-size: 80% 90%;
+    background-repeat: no-repeat;
+    margin-bottom: 50vh;
+}
+
+#COCAINE-9 .main p {
+    background-color: #181818;
+    padding: 25px 50px;
+    width: 27vw;
+    margin: 10vw 0 0 5vw;
+    border: solid .25px #A5A5A5;
 }
 
 #FENTANYL .main {

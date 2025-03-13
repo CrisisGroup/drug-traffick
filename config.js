@@ -624,10 +624,10 @@ var config = {
             image: '',
             description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<br /><br />' + '<em>Local female labor leader in Guayaquil, Ecuador</em>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
+                pitch: 50,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -642,16 +642,16 @@ var config = {
         },
         {
             id: 'COCAINE-9',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
             description: '<h4>TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
+                pitch: 50,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
