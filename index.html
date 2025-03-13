@@ -323,23 +323,30 @@
             let startTime;
             const duration = 10000;
 
+            // Easing function for smooth acceleration and deceleration
+            function easeInOutQuad(t) {
+                return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+            }
+
             const frame = (time) => {
                 if (!startTime) startTime = time;
-                const animationPhase = (time - startTime) / duration;
+                let elapsed = (time - startTime) / duration;
+
+                // Apply easing function
+                const animationPhase = easeInOutQuad(Math.min(elapsed, 1));
 
                 map.setPaintProperty('road-draw-line', 'line-opacity', 1);
                 map.setPaintProperty("road-draw-line", "line-gradient", [
                     "step",
                     ["line-progress"],
-                    "#dbaeb0",
+                    "#b25954",
                     animationPhase,
                     "rgba(0, 0, 0, 0)"
                 ]);
 
-                if (animationPhase > 1) {
-                    return;
+                if (elapsed < 1) {
+                    window.requestAnimationFrame(frame);
                 }
-                window.requestAnimationFrame(frame);
             };
 
             window.requestAnimationFrame(frame);

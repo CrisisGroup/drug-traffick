@@ -1094,7 +1094,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
+            callback: 'roadDraw',
             onChapterEnter: [
                 {
                     layer: "US_fill",
@@ -1138,11 +1138,6 @@ var config = {
                 },
                 {
                     layer: "belgium_fill",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "guayakil-antwerp-line",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -1193,11 +1188,6 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
-                {
-                    layer: "guayakil-antwerp-line",
-                    duration: 2000,
-                    opacity: 0,
-                },
             ]
         },
         {
@@ -1208,7 +1198,7 @@ var config = {
             image: '',
             description: '<strong>PRECURSORS - BROKERS</strong>' + '<br /><br />' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
             location: {
-                center: [23.96141, 8.17259],
+                center: [-48.84508, 18.79418],
                 zoom: 2.5,
                 pitch: 0,
                 bearing: 0,
