@@ -534,7 +534,7 @@ p {
 #FENTANYL .main h3 {
     color: #000 !important;
     font-size: 4em;
-    font-weight: bold;
+    font-weight: 900;
     width: 24vw;
     margin: 10vh 0 0 8.5vw;
 }

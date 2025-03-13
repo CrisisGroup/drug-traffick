@@ -1073,6 +1073,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "road-draw-line",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -1196,7 +1201,7 @@ var config = {
             hidden: false,
             title: 'The Fentanyl Route',
             image: '',
-            description: '<strong>PRECURSORS - BROKERS</strong>' + '<br /><br />' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
+            description: '<h4 class="subheds">PRECURSORS - BROKERS</h4>' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1208,7 +1213,16 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "road-draw-line",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "transpacific-6mw433",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -1232,6 +1246,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: "transpacific-6mw433",
+                    duration: 2000,
+                    opacity: 1,
+                },
                 {
                     layer: "China",
                     duration: 2000,
@@ -1295,6 +1314,11 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
+                    layer: "transpacific-6mw433",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "US_fill",
                     duration: 2000,
                     opacity: 1,
@@ -1336,6 +1360,11 @@ var config = {
                 },
             ],
             onChapterExit: [
+                {
+                    layer: "transpacific-6mw433",
+                    duration: 2000,
+                    opacity: 0,
+                },
                 {
                     layer: "panama_fill",
                     duration: 2000,
