@@ -112,7 +112,7 @@ var config = {
             hidden: false,
             title: 'The Cocaine Route',
             image: '',
-            description: '<strong>COCA CULTIVATION</strong>' + '<br /><br />' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
+            description: '<h4 class="subheds">COCA CULTIVATION</h4>' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -220,8 +220,8 @@ var config = {
             image: '',
             description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<br /><br />' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
+                center: [-77.37878, 2.93177],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0,
                 speed: .4

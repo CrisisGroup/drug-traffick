@@ -14,6 +14,14 @@ a {
     font-weight: bold;
 }
 
+h4.subheds {
+    font-weight: 900;
+    letter-spacing: .2rem;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
 a:hover,
 a:visited {
     color: #fff;
@@ -122,8 +130,8 @@ a:visited {
 
 h3 {
     font-weight: bold;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
 }
 
 h4 {
@@ -292,12 +300,12 @@ p {
 }
 
 .centered .main p {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .centered .main em {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
     font-family: "PT Serif", serif;
 }
@@ -391,7 +399,7 @@ p {
 #COCAINE .main p,
 #FENTANYL .main p {
     width: 31vw;
-    margin: 10vh 0 0 8.5vw;
+    margin: 5vh 0 0 8.5vw;
 }
 
 #INTRO04 .main {
@@ -412,9 +420,8 @@ p {
 
 #COCAINE .main h3 {
     color: #000 !important;
-    font-size: 4em;
-    font-weight: bold;
     width: 24vw;
+    font-weight: 900;
     margin: 10vh 0 0 8.5vw;
 }
 
