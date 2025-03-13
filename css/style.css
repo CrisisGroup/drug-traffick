@@ -181,7 +181,7 @@ p {
 }
 
 .centered {
-    width: 75vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
@@ -308,6 +308,8 @@ p {
     font-size: 1.5rem;
     font-weight: lighter;
     font-family: "PT Serif", serif;
+    margin-top: 25px;
+    display: block;
 }
 
 /* SPAN HIGHLIGHTS/INLINE STYLES */

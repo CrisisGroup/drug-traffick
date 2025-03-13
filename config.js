@@ -218,7 +218,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<br /><br />' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
+            description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
             location: {
                 center: [-77.37878, 2.93177],
                 zoom: 5,
