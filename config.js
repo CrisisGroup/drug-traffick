@@ -1487,11 +1487,11 @@ var config = {
         },
         {
             id: 'FENTANYL-7',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.',
+            description: '<h4>PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1597,7 +1597,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
+            description: '<h4>SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1765,7 +1765,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
+            description: '<h4>DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.' + '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,

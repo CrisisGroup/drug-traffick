@@ -480,10 +480,10 @@ p {
 
 #FENTANYL-4 .main {
     border: none !important;
-    background-image: url(../images/cocaine_intro.png);
-    background-position: top right;
+    background-image: url(../images/drug-scrolly-4.jpg);
+    background-position: center center;
     height: 100vh;
-    background-size: contain;
+    background-size: 70% 70%;
     background-repeat: no-repeat;
 }
 
@@ -497,11 +497,12 @@ p {
 
 #FENTANYL-5 .main {
     border: none !important;
-    background-image: url(../images/maersk.png);
+    background-image: url(../images/drug-scrolly-5.jpg);
     background-position: center center;
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL-5 .main p {
@@ -512,13 +513,29 @@ p {
     border: solid .25px #A5A5A5;
 }
 
+#FENTANYL-7 .main {
+    border: none !important;
+    background-image: url(../images/drug_scrolly-10.jpg);
+    background-size: min(50vw, 652px) auto;
+    background-position: 80% 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 50vh;
+}
+
+#FENTANYL-7 .main p {
+    width: 27vw;
+    margin: 10vh 0 0 5vw;
+}
+
 #FENTANYL-8 .main {
     border: none !important;
-    background-image: url(../images/maersk.png);
-    background-position: top center;
+    background-image: url(../images/drug-scrolly-8.jpg);
+    background-position: center center;
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL-8 .main p {
@@ -531,11 +548,12 @@ p {
 
 #FENTANYL-11 .main {
     border: none !important;
-    background-image: url(../images/cocaine_intro.png);
-    background-position: top right;
+    background-image: url(../images/drug_scrolly-11.jpg);
+    background-size: min(50vw, 652px) auto;
+    background-position: 80% 40%;
     height: 100vh;
-    background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL-11 .main p {
@@ -545,7 +563,7 @@ p {
 
 #FENTANYL-13 .main {
     border: none !important;
-    background-image: url(../images/maersk.png);
+    background-image: url(../images/drug_scrolly-13.jpg);
     background-position: top center;
     height: 100vh;
     background-size: contain;
@@ -562,11 +580,12 @@ p {
 
 #FENTANYL-14 .main {
     border: none !important;
-    background-image: url(../images/cocaine_intro.png);
-    background-position: top right;
+    background-image: url(../images/drug-scrolly-2.jpg);
+    background-size: min(50vw, 652px) auto;
+    background-position: 80% 40%;
     height: 100vh;
-    background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL-14 .main p {
