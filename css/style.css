@@ -270,7 +270,7 @@ p {
     .lefty,
     .righty,
     .fully {
-        width: 90vw;
+        width: 100vw;
         margin: 0 auto;
     }
 }
@@ -286,10 +286,6 @@ p {
     }
 }
 
-
-
-
-
 .centered .main {
     background-color: #944141;
 }
@@ -304,6 +300,8 @@ p {
     font-weight: lighter;
     font-family: "PT Serif", serif;
 }
+
+/* SPAN HIGHLIGHTS/INLINE STYLES */
 
 .violence {
     background-color: #382323;
@@ -322,6 +320,35 @@ p {
     border-radius: 10px;
     display: inline-block;
 }
+
+.coca {
+    background-color: #132a28;
+    color: #007367;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fentanyl {
+    background-color: #242b31;
+    color: #7394b5;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.photocaption {
+    font-size: 0.6em;
+    line-height: 16px;
+    letter-spacing: .02em;
+    display: block;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, .6)
+}
+
+/* END INLINE */
 
 #INTRO .main {
     border: none !important;
@@ -359,9 +386,11 @@ p {
 }
 
 #INTRO02 .main p,
-#INTRO03 .main p {
+#INTRO03 .main p,
+#COCAINE .main p,
+#FENTANYL .main p {
     width: 31vw;
-    margin: 10vw 0 0 8.5vw;
+    margin: 10vh 0 0 8.5vw;
 }
 
 #INTRO04 .main {
@@ -372,38 +401,81 @@ p {
 
 #COCAINE .main {
     background-color: #944141 !important;
+    background-image: url(../images/cocaine_intro.png);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: none !important;
     height: 100vh;
 }
 
 #COCAINE .main h3 {
-    color: #181818 !important;
-    font-size: 6em;
+    color: #000 !important;
+    font-size: 4em;
+    font-weight: bold;
+    width: 24vw;
+    margin: 10vh 0 0 8.5vw;
+}
+
+#COCAINE-1 .main {
+    margin-top: 50vh;
 }
 
 #COCAINE-6 .main {
     border: none !important;
-    background-image: url(../images/cocaine_intro.png);
-    background-position: top right;
+    background-image: url(../images/drug-scrolly-3.jpg);
+    background-size: min(50vw, 652px) auto;
+    background-position: 80% 40%;
     height: 100vh;
-    background-size: contain;
     background-repeat: no-repeat;
 }
 
+/* #COCAINE-6 .main::after {
+    content: "This is the photo caption.";
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 8px;
+    width: 100%;
+  } */
+
 #COCAINE-6 .main p {
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vh 0 0 5vw;
+}
+
+#COCAINE-7 .main {
+    margin-top: 50vh;
+}
+
+#COCAINE-8A .main {
+    border: none !important;
+    background-image: url(../images/drug-scrolly-7.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL .main {
     background-color: #944141 !important;
+    background-image: url(../images/fentanyl_intro.png);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: none !important;
     height: 100vh;
+    margin-bottom: 50vh;
 }
 
 #FENTANYL .main h3 {
-    color: #181818 !important;
-    font-size: 6em;
+    color: #000 !important;
+    font-size: 4em;
+    font-weight: bold;
+    width: 24vw;
+    margin: 10vh 0 0 8.5vw;
 }
 
 #FENTANYL-4 .main {
@@ -419,7 +491,7 @@ p {
     background-color: #181818;
     padding: 25px 50px;
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vh 0 0 5vw;
     border: solid .25px #A5A5A5;
 }
 
@@ -468,7 +540,7 @@ p {
 
 #FENTANYL-11 .main p {
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vh 0 0 5vw;
 }
 
 #FENTANYL-13 .main {
@@ -484,7 +556,7 @@ p {
     background-color: #181818;
     padding: 25px 50px;
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vh 0 0 5vw;
     border: solid .25px #A5A5A5;
 }
 
@@ -499,5 +571,5 @@ p {
 
 #FENTANYL-14 .main p {
     width: 27vw;
-    margin: 10vw 0 0 5vw;
+    margin: 10vh 0 0 5vw;
 }

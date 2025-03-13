@@ -112,7 +112,7 @@ var config = {
             hidden: false,
             title: 'The Cocaine Route',
             image: '',
-            description: 'COCA CULTIVATION' + '<br /><br />' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
+            description: '<strong>COCA CULTIVATION</strong>' + '<br /><br />' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -165,7 +165,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Where <strong>coca is cultivated</strong>, such as in the enclaves of production shown here,  farmers’ contact with traffickers puts them at constant risk for violence, including extortion, recruitment of children, and sexual violence, particularly against rural women heads of household.',
+            description: 'Where <span class="coca">coca is cultivated</span>, such as in the enclaves of production shown here,  farmers’ contact with traffickers puts them at constant risk for violence, including extortion, recruitment of children, and sexual violence, particularly against rural women heads of household.',
             location: {
                 center: [-77.37878, 2.93177],
                 zoom: 5,
@@ -360,9 +360,9 @@ var config = {
             description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
             location: {
                 center: [-79.91784, -2.22528],
-                zoom: 11,
+                zoom: 7,
                 pitch: 50,
-                bearing: 29,
+                bearing: -29,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -453,7 +453,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>SUBCONTRACTORS - LOCAL GANGS</h4>' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
+            description: '<h4>SUBCONTRACTORS - LOCAL GANGS</h4>' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.' + '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span>',
             location: {
                 center: [-79.91784, -2.22528],
                 zoom: 11,
@@ -510,7 +510,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
@@ -573,7 +573,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '',
+            description: '<span class="photocaption">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
             location: {
                 center: [23.96141, 8.17259],
                 zoom: 2.5,
@@ -1155,7 +1155,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The production of the synthetic opioid fentanyl  begins with the import of precursor chemicals, usually from Asia.',
+            description: 'The production of the synthetic opioid <span class="fentanyl">fentanyl</span> begins with the import of precursor chemicals, usually from Asia.',
             location: {
                 center: [114.97610, 23.43231],
                 zoom: 3.5,
@@ -1168,7 +1168,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: "china",
+                    layer: "China",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -1190,7 +1190,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: "china",
+                    layer: "China",
                     duration: 2000,
                     opacity: 0,
                 },
