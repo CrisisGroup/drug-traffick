@@ -22,6 +22,14 @@ h4.subheds {
     color: #fff;
 }
 
+h4.subheds-black {
+    font-weight: 900;
+    letter-spacing: .2rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #B25954;
+}
+
 a:hover,
 a:visited {
     color: #fff;
@@ -228,7 +236,9 @@ p {
 }
 
 .step img {
-    width: 100%;
+    width: 40%;
+    float: right;
+    margin-top: 20vh;
 }
 
 
@@ -438,11 +448,7 @@ p {
 
 #COCAINE-6 .main {
     border: none !important;
-    background-image: url(../images/drug-scrolly-3.jpg);
-    background-size: min(50vw, 652px) auto;
-    background-position: 80% 40%;
     height: 100vh;
-    background-repeat: no-repeat;
 }
 
 /* #COCAINE-6 .main::after {

@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm866we9900cu01qv4ao7gkt1',
+    style: 'mapbox://styles/daltonwb/cm87h8v54006701s27a22f3fm',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -114,8 +114,8 @@ var config = {
             image: '',
             description: '<h4 class="subheds">COCA CULTIVATION</h4>' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
+                center: [-77.37878, 2.93177],
+                zoom: 2,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -300,7 +300,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
+            description: '<h4 class="subheds-black">COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
                 center: [-79.913222, -2.227940],
                 zoom: 14,
@@ -359,10 +359,10 @@ var config = {
             image: '',
             description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
             location: {
-                center: [-79.91784, -2.22528],
+                center: [-80.58557, -2.48186],
                 zoom: 7,
                 pitch: 50,
-                bearing: -29,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -385,12 +385,37 @@ var config = {
                     opacity: 1,
                 },
                 {
+                    layer: "ecuador_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "latam_cities_label",
                     duration: 2000,
                     opacity: 1,
                 },
                 {
                     layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "trunk-case-roads",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "trunk-roads",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "bridge-case",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "bridge-trunk",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -405,12 +430,12 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<br /><br />' + '<em>Social leader in Sucre, Colombia</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<em>Social leader in Sucre, Colombia</em>',
             location: {
-                center: [-79.91784, -2.22528],
-                zoom: 11,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
                 pitch: 50,
-                bearing: 29,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -452,13 +477,13 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: '',
-            image: '',
-            description: '<h4>SUBCONTRACTORS - LOCAL GANGS</h4>' + '<br /><br />' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.' + '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span>',
+            image: 'images/drug-scrolly-3.jpg',
+            description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS - LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
-                center: [-79.91784, -2.22528],
-                zoom: 11,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
                 pitch: 50,
-                bearing: 29,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -503,10 +528,10 @@ var config = {
             image: '',
             description: 'Gangs also manage local drug sales. National groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.' + '<br /><br />' + 'Local gangs exert deep levels of violence against the civilian population, including recruiting young people and children, sexual violence, and extortion. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
-                center: [-79.91784, -2.22528],
-                zoom: 11,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
                 pitch: 50,
-                bearing: 29,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -573,12 +598,12 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<span class="photocaption">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
+            description: '<span class="photocaption" style="color: #000; width: 13em; line-height: 1.25em;">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
             location: {
-                center: [23.96141, 8.17259],
-                zoom: 2.5,
-                pitch: 0,
-                bearing: 0,
+                center: [-80.58557, -2.48186],
+                zoom: 7,
+                pitch: 50,
+                bearing: -12,
                 speed: .4
             },
             mapAnimation: 'flyTo',
