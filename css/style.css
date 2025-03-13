@@ -148,6 +148,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    hanging-punctuation: first;
 }
 
 #footer {
@@ -302,6 +303,8 @@ p {
 .centered .main p {
     font-size: 2rem;
     font-weight: bold;
+    text-indent: -0.4em;  /* Moves the first character slightly left */
+    padding-left: 0.4em; 
 }
 
 .centered .main em {
@@ -310,6 +313,8 @@ p {
     font-family: "PT Serif", serif;
     margin-top: 25px;
     display: block;
+    text-indent: 0;  /* Moves the first character slightly left */
+    padding-left: 0; 
 }
 
 /* SPAN HIGHLIGHTS/INLINE STYLES */
