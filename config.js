@@ -447,7 +447,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].”' + '<em>Social leader in Sucre, Colombia</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].”' + '<em>Social leader in Sucre, Colombia, an area with the Gaitanista Army presence</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -496,12 +496,12 @@ var config = {
             title: '',
             legendId: 'buenaleg',
             image: 'images/drug-scrolly-3.jpg',
-            description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS - LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
+            description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS — LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
                 center: [-77.07005, 3.89126],
                 zoom: 14.75,
-                pitch: 103,
-                bearing: 50,
+                pitch: 50,
+                bearing: 103,
                 speed: .6
             },
             mapAnimation: 'flyTo',
@@ -665,7 +665,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<br /><br />' + '<em>Local female labor leader in Guayaquil, Ecuador</em>',
+            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<em>Local female labor leader in Guayaquil, Ecuador</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -713,7 +713,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">TRANSNATIONAL SHIPPING - INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.<br /><br />',
+            description: '<h4 class="subheds-black">TRANSNATIONAL SHIPPING — INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.<br /><br />',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -854,7 +854,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The Mexicans have divided the enclaves up between them; they intervene and look for strong leaders and groups, and the logic then is to double them in size. Including with the influx of so many guns and of drug trafficking”.' + '<br /><br />' + '<em>Former gang member, Guayaquil, Ecuador</em>',
+            description: '“The Mexicans have divided the enclaves up between them; they intervene and look for strong leaders and groups, and the logic then is to double them in size. Including with the influx of so many guns and of drug trafficking”.' + '<em>Former gang member, Guayaquil, Ecuador</em>',
             location: {
                 center: [-85.90954, 11.70422],
                 zoom: 4.1,
@@ -957,7 +957,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last moment needed change of route.',
+            description: '<h4 class="subheds-black">STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last moment needed change of route.',
             location: {
                 center: [-93.04360, 14.41479],
                 zoom: 6.25,
@@ -1005,7 +1005,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
+            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1087,7 +1087,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain.”' + '<br /><br />' + '<em>Former gang member, Guayaquil, Ecuador</em>',
+            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain.”' + '<em>Former gang member, Guayaquil, Ecuador</em>',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1692,13 +1692,13 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
-            ],
-            onChapterExit: [
                 {
                     layer: "background",
                     duration: 2000,
                     opacity: 0,
                 },
+            ],
+            onChapterExit: [
                 {
                     layer: "satellite",
                     duration: 2000,
@@ -1715,8 +1715,8 @@ var config = {
             description: 'Transport to market along roads and by boat to the United States largely falls under the jurisdiction of these international traffickers, who fight violent battles to control turf and secure routes.' + '<br /><br />' + 'Penetration of the security forces and local authorities is also fundamental for business.',
             location: {
                 center: [-108.47314, 25.33654],
-                zoom: 6,
-                pitch: 50,
+                zoom: 5.15,
+                pitch: 40,
                 bearing: 20,
                 speed: .4
             },
@@ -1724,6 +1724,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
                 {
                     layer: "sinaloa_fill",
                     duration: 2000,
@@ -1776,6 +1781,11 @@ var config = {
                 },
             ],
             onChapterExit: [
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
                 {
                     layer: "sinaloa_fill",
                     duration: 2000,
@@ -1834,7 +1844,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1895,6 +1905,11 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "mexico_fill",
                     duration: 2000,
                     opacity: 1,
@@ -1921,7 +1936,11 @@ var config = {
                 },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2030,12 +2049,12 @@ var config = {
         },
         {
             id: 'FENTANYL-12',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
             description: 'Residents describe these individuals’ behavior as unpredictable; while some control petty crime and discourage violence, others prey on the population and violently target rivals or those who would question criminal governance.' + '<br /><br />' + 'Access to arms and drugs are major lures for local groups to forge ties with larger traffickers; these tools facilitate their movement into extractive businesses including human trafficking, kidnapping and extortion.',
-            location: {
+            location: {  
                 center: [-115.94566, 30.98964],
                 zoom: 6.25,
                 pitch: 0,
@@ -2071,6 +2090,16 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "baja",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "baja_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -2098,6 +2127,16 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "baja",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "baja_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2106,7 +2145,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
+            description: '<h4 class="subheds-black">INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.' + '<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -2126,11 +2165,11 @@ var config = {
         },
         {
             id: 'FENTANYL-14',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
-            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
+            image: 'images/drug-scrolly-2.jpg',
+            description: '<span class="photocaption">Smoke billows over Culiacán as cartel gunmen set vehicles and buildings ablaze during a violent clash with Mexican security forces, in October 2019. CRISIS GROUP</span><h4 class="subheds-black">FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -2163,7 +2202,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 
