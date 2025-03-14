@@ -367,6 +367,11 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "los_rios_fill",
                     duration: 2000,
                     opacity: 1,
@@ -442,7 +447,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].' + '<em>Social leader in Sucre, Colombia</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group].”' + '<em>Social leader in Sucre, Colombia</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -486,22 +491,28 @@ var config = {
         },
         {
             id: 'COCAINE-6',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
+            legendId: 'buenaleg',
             image: 'images/drug-scrolly-3.jpg',
             description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS - LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
-                center: [-80.58557, -2.48186],
-                zoom: 7,
-                pitch: 50,
-                bearing: -12,
-                speed: .4
+                center: [-77.10534, 3.91040],
+                zoom: 12,
+                pitch: 58,
+                bearing: 52,
+                speed: .6
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 1,
+                },
                 {
                     layer: "los_rios_fill",
                     duration: 2000,
@@ -529,7 +540,11 @@ var config = {
                 },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -577,6 +592,11 @@ var config = {
                 },
             ],
             onChapterExit: [
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
                 {
                     layer: "los_rios_fill",
                     duration: 2000,
@@ -1651,27 +1671,36 @@ var config = {
         },
         {
             id: 'FENTANYL-7',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
-            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
+            image: 'images/drug_scrolly-10.jpg',
+            description: '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span><h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
-                pitch: 0,
-                bearing: 0,
+                center: [-107.42561, 24.79061],
+                zoom: 12.5,
+                pitch: 53,
+                bearing: 18,
                 speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
                     layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "satellite",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1969,26 +1998,34 @@ var config = {
         },
         {
             id: 'FENTANYL-11',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
-            description: '<h4 class="subheds-black">DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.' + '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span>',
+            image: 'images/drug_scrolly-11.jpg',
+            description: '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span><h4 class="subheds-black">DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
-                pitch: 0,
-                bearing: 0,
+                center: [-106.52386, 31.73490],
+                zoom: 12.5,
+                pitch: 50,
+                bearing: 66,
                 speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2117,7 +2154,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<br /><br />' + '<em>US Indictment of Chapitos</em>',
+            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<em>US Indictment of Chapitos</em>',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,

@@ -149,7 +149,7 @@ a:visited {
     margin-right: 5%;
     background-color: #fff;
     color: #181818;
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
     padding: 20px 50px 20px 50px;
     border-radius: 8px;
 }
@@ -162,7 +162,7 @@ a:visited {
 #scrollToFentanyl {
     background-color: #fff;
     color: #181818;
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
     padding: 20px 50px 20px 50px;
     border-radius: 8px;
 }
@@ -267,9 +267,7 @@ p {
 }
 
 .step img {
-    width: 40%;
-    float: right;
-    margin-top: 20vh;
+    width: 100%;
 }
 
 
@@ -289,6 +287,7 @@ p {
     padding: 10px 50px;
     z-index: 1000;
     font-weight: 700;
+    max-width: 560px;
 }
 
 .legend.active {
@@ -491,16 +490,6 @@ p {
     margin-top: 50vh;
 }
 
-#COCAINE-6 .main {
-    border: none !important;
-    height: 100vh;
-}
-
-#COCAINE-6 .main p {
-    width: 27vw;
-    margin: 10vh 0 0 5vw;
-}
-
 #COCAINE-7 .main {
     margin-top: 50vh;
 }
@@ -627,21 +616,6 @@ p {
     border: solid .25px #A5A5A5;
 }
 
-#FENTANYL-7 .main {
-    border: none !important;
-    background-image: url(../images/drug_scrolly-10.jpg);
-    background-size: min(50vw, 652px) auto;
-    background-position: 80% 40%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    margin-bottom: 50vh;
-}
-
-#FENTANYL-7 .main p {
-    width: 27vw;
-    margin: 10vh 0 0 5vw;
-}
-
 #FENTANYL-8 .main {
     border: none !important;
     background-image: url(../images/drug-scrolly-8.jpg);
@@ -660,27 +634,12 @@ p {
     border: solid .25px #A5A5A5;
 }
 
-#FENTANYL-11 .main {
-    border: none !important;
-    background-image: url(../images/drug_scrolly-11.jpg);
-    background-size: min(50vw, 652px) auto;
-    background-position: 80% 40%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    margin-bottom: 50vh;
-}
-
-#FENTANYL-11 .main p {
-    width: 27vw;
-    margin: 10vh 0 0 5vw;
-}
-
 #FENTANYL-13 .main {
     border: none !important;
     background-image: url(../images/drug_scrolly-13.jpg);
     background-position: top center;
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
