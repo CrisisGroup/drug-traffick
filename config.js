@@ -1509,7 +1509,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>FENTANYL SYNTHESIS</h4>' + 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.' + '<br /><br />',
+            description: '<h4 class="subheds-black">FENTANYL SYNTHESIS</h4>' + 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.' + '<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1533,7 +1533,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“No one hears or sees anything. They find a laboratory in the neighbourhood and no one dares to say a thing. Why? Because all of us are scared. These criminals have the support of [parts of the] state, and we have nothing.”' + '<br /><br />' + '<em>Local journalist in Baja California</em>',
+            description: '“No one hears or sees anything. They find a laboratory in the neighbourhood and no one dares to say a thing. Why? Because all of us are scared. These criminals have the support of [parts of the] state, and we have nothing.”' + '<em>Local journalist in Baja California</em>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1595,7 +1595,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
+            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1741,7 +1741,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS - NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1837,7 +1837,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up.’”' + '<br /><br />' + '<em>Local journalist in Baja California</em>',
+            description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up.’”' + '<em>Local journalist in Baja California</em>',
             location: {
                 center: [-102.37980, 24.23877],
                 zoom: 4.25,
@@ -2029,7 +2029,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
+            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
