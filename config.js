@@ -165,6 +165,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'collegend',
             description: 'Where <span class="coca">coca is cultivated</span>, such as in the enclaves of production shown here,  farmers’ contact with traffickers puts them at constant risk for violence, including extortion, recruitment of children, and sexual violence, particularly against rural women heads of household.',
             location: {
                 center: [-77.37878, 2.93177],
