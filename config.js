@@ -1211,7 +1211,7 @@ var config = {
             hidden: false,
             title: 'The Fentanyl Route',
             image: '',
-            description: '<h4 class="subheds">PRECURSORS - BROKERS</h4>' + 'The production of the synthetic opioid fentanyl begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
+            description: '<h4 class="subheds">PRECURSORS — BROKERS</h4>' + 'Mexican criminal groups have also found a lucrative new revenue source in the production of synthetic drugs, first methamphetamine and then, beginning around 2014, fentanyl. The expansion of production has been “exponential", according to U.S. court indictments.',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1244,7 +1244,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The production of the synthetic opioid <span class="fentanyl">fentanyl</span> begins with the import of precursor chemicals, usually from Asia.',
+            description: 'The production of the synthetic opioid <span class="fentanyl">fentanyl</span> begins with the import of precursor chemicals, usually from Asia.' + '<br /><br />' + 'Brokers, often business people with legal companies and easy access to capital markets, organise these purchases.',
             location: {
                 center: [114.97610, 23.43231],
                 zoom: 3.5,
@@ -1311,7 +1311,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The group uses “brokers in other countries to purchase precursor chemicals from [Chinese] companies on the Cartel’s behalf. Those brokers also assist with ensuring that the precursor chemicals are successfully transported from China to the Cartel in Mexico”' + '<br /><br />' + '<em>U.S. Indictment of Los Chapitos</em>',
+            description: '“The group uses ‘brokers in other countries to purchase precursor chemicals from [Chinese] companies on the Cartel’s behalf. Those brokers also assist with ensuring that the precursor chemicals are successfully transported from China to the Cartel in Mexico.’”' + '<em>U.S. Indictment of Los Chapitos</em>',
             location: {
                 center: [-137.88054, 28.74828],
                 zoom: 3.5,
@@ -1413,7 +1413,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>LOCAL/NATIONAL GROUP</h4>' + 'Successfully bringing chemicals into Mexico often requires control of ports, penetration of port staff and corruption in the security forces.' + '<br /><br />' + 'Criminal groups compete fiercely for this control, fighting turf wars and threatening functionaries who do not comply with their demands.',
+            description: '<h4 class="subheds-black">LOCAL — NATIONAL GROUP</h4>' + 'Successfully bringing chemicals into Mexico often requires control of ports, penetration of port staff and corruption in the security forces.' + '<br /><br />' + 'Criminal groups compete fiercely for this control, fighting turf wars and threatening functionaries who do not comply with their demands.',
             location: {
                 center: [-108.27634, 19.53883],
                 zoom: 5,
@@ -1452,7 +1452,7 @@ var config = {
                 },
             ],
             onChapterExit: [
-                {
+/*                 {
                     layer: "mexico_fill",
                     duration: 2000,
                     opacity: 0,
@@ -1476,7 +1476,7 @@ var config = {
                     layer: "manzanillo_label",
                     duration: 2000,
                     opacity: 0,
-                },
+                }, */
             ]
         },
         {
