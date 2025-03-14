@@ -72,6 +72,9 @@ a:visited {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: none;
+    padding-bottom: 50px;
+    background: #181818;
 }
 
 #header video {

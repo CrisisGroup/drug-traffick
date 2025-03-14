@@ -12,7 +12,7 @@ var config = {
     title: '<h1>How a new drug trafficking landscape fuels violence in Latin America</h1><video id="background-video" autoplay loop muted poster="images/poster.webp"><source src="images/aerial.webm" type="video/webm">',
     subtitle: '',
     start: 'BEGIN',
-    footer: '<strong>Lead contributors</strong>: Elizabeth Dickinson<br /><strong>Visualisations</strong>: Claire Boccon-Gibod and Paul Franz <br /><br /><strong>Sources and Data</strong>: Crisis Group research, ACLED, UNCTAD / Marine Benchmark.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
+    footer: '<strong>Lead contributors</strong>: Elizabeth Dickinson<br /><strong>Visualisations</strong>: Claire Boccon-Gibod, Paul Franz and Jorge Gutierrez Lucena<br /><br /><strong>Sources and Data</strong>: Crisis Group research<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
     chapters: [
         {
             id: 'INTRO', // Always use INTRO as first chapter name
@@ -587,6 +587,26 @@ var config = {
                 },
                 {
                     layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-case-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-case",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-trunk",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1651,6 +1671,26 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "trunk-case-roads",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "trunk-roads",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "bridge-case",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "bridge-trunk",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -1680,6 +1720,26 @@ var config = {
                 },
                 {
                     layer: "us_sw_state_labels",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-case-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-case",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-trunk",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1859,7 +1919,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.' + '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span>',
+            description: '<h4 class="subheds-black">DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.' + '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1955,7 +2015,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4>INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
+            description: '<h4 class="subheds-black">INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
