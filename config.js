@@ -498,10 +498,10 @@ var config = {
             image: 'images/drug-scrolly-3.jpg',
             description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS - LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
             location: {
-                center: [-77.10534, 3.91040],
-                zoom: 12,
-                pitch: 58,
-                bearing: 52,
+                center: [-77.07005, 3.89126],
+                zoom: 14.75,
+                pitch: 103,
+                bearing: 50,
                 speed: .6
             },
             mapAnimation: 'flyTo',
