@@ -1848,7 +1848,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'michlegend',
-            description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,

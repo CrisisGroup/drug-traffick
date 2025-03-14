@@ -467,6 +467,10 @@ p {
     height: 100vh;
 }
 
+#INTRO04 .main h3 {
+    margin-top: 25vh;
+}
+
 #COCAINE .main {
     background-color: #944141 !important;
     background-image: url(../images/cocaine_intro.png);
@@ -641,6 +645,10 @@ p {
     width: 27vw;
     margin: 10vw 0 0 5vw;
     border: solid .25px #A5A5A5;
+}
+
+#FENTANYL-11 .main {
+    margin-bottom: 50vh;
 }
 
 #FENTANYL-13 .main {
