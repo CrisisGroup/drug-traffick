@@ -607,7 +607,7 @@ p {
     background-image: url(../images/drug-scrolly-8.jpg);
     background-position: center center;
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50vh;
 }

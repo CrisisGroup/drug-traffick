@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm87kavzt001f01s90yugca6w',
+    style: 'mapbox://styles/daltonwb/cm88w6yr6004c01s59jf466am',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -1203,6 +1203,11 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "road-draw-line",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1280,6 +1285,11 @@ var config = {
                     layer: "china_fill",
                     duration: 2000,
                     opacity: 0.7,
+                },
+                {
+                    layer: "road-draw-line",
+                    duration: 2000,
+                    opacity: 0,
                 },
             ],
             onChapterExit: [
@@ -1521,7 +1531,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -1545,6 +1559,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
                 {
                     layer: "mexico_fill",
                     duration: 2000,
@@ -1595,7 +1614,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION - INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
+            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.' + '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. To match Special report MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1610,7 +1629,11 @@ var config = {
                 
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
