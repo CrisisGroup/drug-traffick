@@ -279,8 +279,7 @@
         var scroller = scrollama();
 
         map.on('load', () => {
-            // Define the URL for the external GeoJSON file
-            const geojsonUrl = 'data/antwerp.geojson'; // Change to your actual file URL
+            const geojsonUrl = 'data/antwerp.geojson'; 
 
             fetch(geojsonUrl)
                 .then(response => {

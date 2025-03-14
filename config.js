@@ -1015,11 +1015,6 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
-                {
-                    layer: "guayakil-antwerp-line",
-                    duration: 2000,
-                    opacity: 1,
-                },
             ],
             onChapterExit: [
                 
@@ -1085,11 +1080,6 @@ var config = {
                 },
                 {
                     layer: "belgium_fill",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "guayakil-antwerp-line",
                     duration: 2000,
                     opacity: 1,
                 },
