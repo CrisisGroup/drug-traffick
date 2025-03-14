@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm88w6yr6004c01s59jf466am',
+    style: 'mapbox://styles/daltonwb/cm88wwoxs003n01qr4skrea7s',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -85,11 +85,11 @@ var config = {
         },
         {
             id: 'INTRO04',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
             title: 'Follow a journey from production to market',
             image: '',
-            description: '<button class="chapter-button" id="scrollToCocaine">COCAINE</button>' + '<button class="chapter-button" id="scrollToFentanyl">FENTANYL</button>',
+            description: '<button class="chapter-button" id="scrollToCocaine">Cocaine</button>' + '<button class="chapter-button" id="scrollToFentanyl">Fentanyl</button>',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
@@ -100,10 +100,10 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+
             ],
             onChapterExit: [
-                
+
             ]
         },
         {
@@ -747,16 +747,6 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
-               /*  {
-                    layer: "bq",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: " bq_label",
-                    duration: 2000,
-                    opacity: 1,
-                }, */
                 {
                     layer: "santa_marta_label",
                     duration: 2000,
@@ -797,9 +787,18 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "trans-atl-routes",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "trans-atl-routes",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -865,6 +864,7 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+
             ],
             onChapterExit: [
                 {
@@ -1015,9 +1015,23 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "trans-atl-routes",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "trans-atl-routes",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
