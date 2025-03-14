@@ -431,17 +431,17 @@ p {
 #INTRO02 .main {
     border: none !important;
     background-image: url(../images/globe.png);
-    background-position: center right;
+    background-position: 90% 40%;
     height: 100vh;
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
 }
 
 #INTRO03 .main {
     border: none !important;
     background-image: url(../images/pyramid.png);
-    background-position: center right;
-    background-size: 50%;
+    background-position: 85% 40%;
+    background-size: 40%;
     height: 100vh;
     background-repeat: no-repeat;
 }
