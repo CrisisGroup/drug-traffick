@@ -713,6 +713,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'ghostlegend',
             description: '<h4 class="subheds-black">TRANSNATIONAL SHIPPING — INTERNATIONAL TRAFFICKERS</h4>' + 'International traffickers buy the product at the port of exit for transnational shipping.' + '<br /><br />' + 'These buyer-seller relationships are fiercely contested, and often generate violent competition among national groups.<br /><br />',
             location: {
                 center: [-80.58557, -2.48186],
@@ -1556,7 +1557,8 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In Manzanillo, Mexico, for example, local groups appear to pay the CJNG for permission to operate around the port, providing services to traffickers and stealing cargo from rivals.',
+            legendId: 'manlegend',
+            description: 'In Manzanillo, Colima state, Mexico, for example, local groups appear to pay the CJNG for permission to operate around the port, providing services to traffickers and stealing cargo from rivals.',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1580,6 +1582,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'mexlegend',
             description: '<h4 class="subheds-black">FENTANYL SYNTHESIS</h4>' + 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.' + '<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
@@ -1844,6 +1847,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'michlegend',
             description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.' + '<span class="photocaption">The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.</span>',
             location: {
                 center: [-103.26209, 18.21721],
@@ -2145,6 +2149,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'stlegend',
             description: '<h4 class="subheds-black">INTERNATIONAL TRAFFICKERS</h4>' + 'By the time it is sold in the streets of the United States, the value of fentanyl has increased between 600 and 800 times when compared with the price invested in purchasing precursors.' + '<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
