@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm88wwoxs003n01qr4skrea7s',
+    style: 'mapbox://styles/daltonwb/cm88z6qex004101qrh5ykfwsf',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -100,37 +100,8 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
-            ],
-            onChapterExit: [
-
-            ]
-        },
-        {
-            id: 'COCAINE',
-            alignment: 'full',
-            hidden: false,
-            title: 'The Cocaine Route',
-            image: '',
-            description: '<h4 class="subheds">COCA CULTIVATION</h4>' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
-            location: {
-                center: [-77.37878, 2.93177],
-                zoom: 2,
-                pitch: 0,
-                bearing: 0,
-                speed: .4
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
                 {
                     layer: "colombia_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "colombia",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -154,6 +125,30 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'COCAINE',
+            alignment: 'full',
+            hidden: false,
+            title: 'The Cocaine Route',
+            image: '',
+            description: '<h4 class="subheds">COCA CULTIVATION</h4>' + 'Coca farmers earn very little for growing the raw material for cocaine, and they often live under the control of armed or criminal groups. At times, these organisations compel them to grow the crop; in other cases, criminals closely monitor sales and take a cut of the profits.' + '<br /><br />' + 'Farmers often undertake the first step of refining coca leaves into base paste.',
+            location: {
+                center: [-77.37878, 2.93177],
+                zoom: 2,
+                pitch: 0,
+                bearing: 0,
+                speed: .4
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
             ],
             onChapterExit: [
                 
@@ -219,7 +214,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“This is the big problem of coca - it brings all the bad things. It is the precursor of everything bad - armed groups in our areas, recruitment, the lure of fast money”' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
+            description: '“This is the big problem of coca — it brings all the bad things. It is the precursor of everything bad — armed groups in our areas, recruitment, the lure of fast money.”' + '<em>Former female coca farmer in Guaviare, Colombia</em>',
             location: {
                 center: [-77.37878, 2.93177],
                 zoom: 5,
@@ -301,12 +296,13 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">COCA PROCESSING AND TRANSPORTATION - NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
+            legendId: 'guayalegend',
+            description: '<h4 class="subheds-black">COCA PROCESSING AND TRANSPORTATION — NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
-                center: [-79.913222, -2.227940],
-                zoom: 14,
-                pitch: 70,
-                bearing: 50,
+                center: [-79.90439, -2.19141],
+                zoom: 13,
+                pitch: 68,
+                bearing: 60,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -336,12 +332,12 @@ var config = {
                 {
                     layer: "latam_cities_label",
                     duration: 2000,
-                    opacity: 0,
+                    opacity: 1,
                 },
                 {
                     layer: "latam_cities",
                     duration: 2000,
-                    opacity: 0,
+                    opacity: 1,
                 },
             ],
             onChapterExit: [
@@ -382,6 +378,21 @@ var config = {
                 },
                 {
                     layer: "ecuador",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "putumayo",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "putumayo_province_fill",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -578,6 +589,21 @@ var config = {
                 },
                 {
                     layer: "ecuador",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo_province_fill",
                     duration: 2000,
                     opacity: 0,
                 },
