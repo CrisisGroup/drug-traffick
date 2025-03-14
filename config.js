@@ -9,7 +9,7 @@ var config = {
     insetPosition: 'bottom-left',
     use3dTerrain: false,
     auto: false,
-    title: '<h1>How a new drug trafficking landscape fuels violence in Latin America</h1><video id="background-video" autoplay loop muted poster="images/poster.webp"><source src="images/aerial.webm" type="video/webm">',
+    title: '<h1>How a new drug trafficking landscape fuels violence in Latin America</h1><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.webm" type="video/webm">',
     subtitle: '',
     start: 'BEGIN',
     footer: '<strong>Lead contributors</strong>: Elizabeth Dickinson<br /><strong>Visualisations</strong>: Claire Boccon-Gibod, Paul Franz and Jorge Gutierrez Lucena<br /><br /><strong>Sources and Data</strong>: Crisis Group research<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',

@@ -430,19 +430,19 @@ p {
 
 #INTRO02 .main {
     border: none !important;
-    background-image: url(../images/pyramid.png);
-    background-position: top right;
+    background-image: url(../images/globe.png);
+    background-position: center right;
     height: 100vh;
-    background-size: contain;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 
 #INTRO03 .main {
     border: none !important;
     background-image: url(../images/pyramid.png);
-    background-position: top right;
+    background-position: center right;
+    background-size: 50%;
     height: 100vh;
-    background-size: 50% 60%;
     background-repeat: no-repeat;
 }
 
@@ -455,11 +455,9 @@ p {
 }
 
 #INTRO02 .main p,
-#INTRO03 .main p,
-#COCAINE .main p,
-#FENTANYL .main p {
+#INTRO03 .main p {
     width: 31vw;
-    margin: 5vh 0 0 8.5vw;
+    margin: 30vh 0 0 8.5vw;
 }
 
 #INTRO04 .main {
@@ -472,8 +470,8 @@ p {
 #COCAINE .main {
     background-color: #944141 !important;
     background-image: url(../images/cocaine_intro.png);
-    background-position: right center;
-    background-size: contain;
+    background-position: center right;
+    background-size: 50%;
     background-repeat: no-repeat;
     border: none !important;
     height: 100vh;
@@ -484,6 +482,13 @@ p {
     width: 24vw;
     font-weight: 900;
     margin: 10vh 0 0 8.5vw;
+}
+
+#COCAINE .main p,
+#FENTANYL .main p {
+    margin-top: 10vh;
+    margin: 5vh 0 0 8.5vw;
+    width: 27vw;
 }
 
 #COCAINE-1 .main {
