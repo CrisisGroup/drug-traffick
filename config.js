@@ -12,7 +12,7 @@ var config = {
     title: '<h1>How a new drug trafficking landscape fuels violence in Latin America</h1><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.webm" type="video/webm">',
     subtitle: '',
     start: 'BEGIN',
-    footer: '<strong>Lead contributors</strong>: Elizabeth Dickinson<br /><strong>Visualisations</strong>: Claire Boccon-Gibod, Paul Franz and Jorge Gutierrez Lucena<br /><strong>Support</strong>: Victor Aguilar Pereira <br /><br /><strong>Sources and Data</strong>: Crisis Group research<br /><br /><strong>Originally published:</strong> 19 March, 2025<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
+    footer: '<strong>Lead contributors</strong>: Elizabeth Dickinson<br /><strong>Visualisations</strong>: Claire Boccon-Gibod, Paul Franz and Jorge Gutierrez Lucena<br /><strong>Support</strong>: Victor Aguilar Pereira <br /><br /><strong>Sources and Data</strong>: Crisis Group research<br /><strong>Originally published:</strong> 19 March, 2025<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
     chapters: [
         {
             id: 'INTRO', // Always use INTRO as first chapter name
@@ -2218,11 +2218,11 @@ var config = {
         },
         {
             id: 'END',
-            alignment: 'none',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
-            description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#cocaine">explore the routes of cocaine</a>.',
+            description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#COCAINE">explore the routes of cocaine</a>.',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
@@ -2231,7 +2231,7 @@ var config = {
                 speed: .4
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 
