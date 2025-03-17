@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm8daizdw00se01s53s958fer',
+    style: 'mapbox://styles/daltonwb/cm8dca82b000e01pafwm5ga6h',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -657,7 +657,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<span class="photocaption" style="color: #000; width: 13em; line-height: 1.25em;">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
+            description: '<span class="photocaption" style="color: #000; width: 13em; line-height: 1.25em; font-weight: bold;">Relatives of a victim of a massacre comfort each other at the morgue in Guayaquil, Ecuador on March 7, 2025. Gerardo MENOSCAL / AFP</span>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -808,10 +808,20 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
                     layer: "trans-atl-routes",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "admin_0_thick",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -972,9 +982,18 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -983,7 +1002,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.' + '<br /><br />' + 'These investors, known in South America as invisible narcos, benefit richly from their work.' + '<br /><br />' + 'Their direct contact with armed organisations is limited, as they take pains to distance themselves from traffickers through the deployment of emissaries and third-party negotiators, who organise the terms of the business.',
+            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'Traffickers rely on a network of business people and white-collar criminals to invest in their operations, access the banking system, create shell companies, and launder the money earned along the supply chain.',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1518,6 +1537,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
 /*                 {
@@ -1545,6 +1569,11 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 }, */
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1554,9 +1583,9 @@ var config = {
             title: '',
             image: '',
             legendId: 'manlegend',
-            description: 'In Manzanillo, Colima state, Mexico, for example, local groups appear to pay the CJNG for permission to operate around the port, providing services to traffickers and stealing cargo from rivals.',
+            description: '<br />In Manzanillo, Colima state, Mexico, for example, local groups appear to pay the CJNG for permission to operate around the port, providing services to traffickers and stealing cargo from rivals.<br /><br />',
             location: {
-                center: [-103.26209, 18.21721],
+                center: [-108.27634, 19.53883],
                 zoom: 5,
                 pitch: 0,
                 bearing: 0,
@@ -1585,7 +1614,7 @@ var config = {
             legendId: 'mexlegend',
             description: '<h4 class="subheds-black">FENTANYL SYNTHESIS</h4>' + 'These criminal groups move precursors to “cooks”, who produce the drug. There are a limited number of people trusted by major criminal groups to do this, and they are closely controlled. The cooks are responsible for ensuring the quality of the products for these clients.' + '<br /><br />',
             location: {
-                center: [-103.26209, 18.21721],
+                center: [-108.27634, 19.53883],
                 zoom: 5,
                 pitch: 0,
                 bearing: 0,
@@ -1613,7 +1642,7 @@ var config = {
             image: '',
             description: '“No one hears or sees anything. They find a laboratory in the neighbourhood and no one dares to say a thing. Why? Because all of us are scared. These criminals have the support of [parts of the] state, and we have nothing.”' + '<em>Local journalist in Baja California</em>',
             location: {
-                center: [-103.26209, 18.21721],
+                center: [-108.27634, 19.53883],
                 zoom: 5,
                 pitch: 0,
                 bearing: 0,
@@ -1628,48 +1657,8 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
-                {
-                    layer: "mexico_fill",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "US_fill",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "latam_cities_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
             ],
             onChapterExit: [
-                {
-                    layer: "mexico_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "US_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "latam_cities_label",
-                    duration: 2000,
-                    opacity: 0,
-                },
                 {
                     layer: "background",
                     duration: 2000,
@@ -1735,6 +1724,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'sinlegend',
             description: 'Transport to market along roads and by boat to the United States largely falls under the jurisdiction of these international traffickers, who fight violent battles to control turf and secure routes.' + '<br /><br />' + 'Penetration of the security forces and local authorities is also fundamental for business.',
             location: {
                 center: [-108.47314, 25.33654],
@@ -1870,10 +1860,10 @@ var config = {
             legendId: 'michlegend',
             description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.<br /><br />',
             location: {
-                center: [-103.26209, 18.21721],
-                zoom: 5,
-                pitch: 0,
-                bearing: 0,
+                center: [-108.47314, 25.33654],
+                zoom: 5.15,
+                pitch: 40,
+                bearing: 20,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -1919,7 +1909,7 @@ var config = {
             description: 'These local groups are deeply violent, imposing their criminal control through extortion, recruitment, and targeted killing. Often, they have forged ties to local authorities and security forces to facilitate business.',
             location: {
                 center: [-102.37980, 24.23877],
-                zoom: 4.25,
+                zoom: 5,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -1974,9 +1964,9 @@ var config = {
             title: '',
             image: '',
             description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up.’”' + '<em>Local journalist in Baja California</em>',
-            location: {
+            llocation: {
                 center: [-102.37980, 24.23877],
-                zoom: 4.25,
+                zoom: 5,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -2154,6 +2144,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -2188,6 +2183,11 @@ var config = {
                 },
                 {
                     layer: "baja_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "admin_0_thick",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -2236,10 +2236,78 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guatemala",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guatemala_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guatemala",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "honduras",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "mexico_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guatemala_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2250,7 +2318,7 @@ var config = {
             image: '',
             description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world.”' + '<em>US Indictment of Chapitos</em>',
             location: {
-                center: [-37.04445, 38.28202],
+                center: [-111.27566, 21.29812],
                 zoom: 2.4,
                 pitch: 25,
                 bearing: 0,
@@ -2282,7 +2350,7 @@ var config = {
             image: '',
             description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#COCAINE">explore the routes of cocaine</a>.',
             location: {
-                center: [-37.04445, 38.28202],
+                center: [-111.27566, 21.29812],
                 zoom: 2.4,
                 pitch: 25,
                 bearing: 0,

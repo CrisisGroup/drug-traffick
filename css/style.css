@@ -142,7 +142,7 @@ a:visited {
 
 .start-button:hover,
 .chapter-button:hover {
-    background-color: #a4343a;
+    background-color: #944141;
 }
 
 #scrollToCocaine {
@@ -155,7 +155,7 @@ a:visited {
 }
 
 #scrollToCocaine:hover, #scrollToFentanyl:hover {
-    background: #a4343a;
+    background: #944141;
     color: #fff;
 }
 
@@ -676,4 +676,12 @@ p {
     width: 27vw;
     margin: 10vh 0 0 5vw;
     border: solid .25px #A5A5A5;
+}
+
+#FENTANYL-14 .main {
+    margin-bottom: 50vh;
+}
+
+#END {
+    min-height: 70vh !important;
 }
