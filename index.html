@@ -11,6 +11,22 @@
     <script src="https://unpkg.com/scrollama"></script>
     <link rel="stylesheet" href="https://use.typekit.net/nor1fwl.css">
     <link href="css/style.css" rel="stylesheet" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-TD5NKJJ');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -25,21 +41,26 @@
         <div class="legend" id="collegend">
 
             <div class="legend-item">
-                <span style="background:#007367; border: solid 1px #fff;"></span> Departments where coca cultivation is the highest
+                <span style="background:#007367; border: solid 1px #fff;"></span> Departments where coca cultivation is
+                the highest
             </div>
         </div>
 
         <div class="legend" id="guayalegend">
 
             <div class="legend-item">
-                The winding rivers of Guayaquil offer ample opportunities for traffickers to load drugs before containers enter the high seas, in Guayaquil, Ecuador. May, 2024.
+                The winding rivers of Guayaquil offer ample opportunities for traffickers to load drugs before
+                containers enter the high seas, in Guayaquil, Ecuador. May, 2024.
             </div>
         </div>
 
         <div class="legend" id="ghostlegend">
 
             <div class="legend-item">
-                Guatemalan alleged drug trafficker Marlon Monroy, aka 'The Ghost', is taken under custody to board an aircraft to be extradited to the United States, in Guatemala City, on November 2, 2016. Monroy was considered by the authorities as the main contact in Guatemala of the Mexican Sinaloa cartel, reported an official source. Johan ORDONEZ / AFP
+                Guatemalan alleged drug trafficker Marlon Monroy, aka 'The Ghost', is taken under custody to board an
+                aircraft to be extradited to the United States, in Guatemala City, on November 2, 2016. Monroy was
+                considered by the authorities as the main contact in Guatemala of the Mexican Sinaloa cartel, reported
+                an official source. Johan ORDONEZ / AFP
             </div>
         </div>
 
@@ -47,28 +68,32 @@
         <div class="legend" id="manlegend">
 
             <div class="legend-item">
-                A view of the port of Manzanillo, Mexico’s largest container port. Colima, Mexico, Febrero 2024. CRISIS GROUP / Angélica Ospina-Escobar
+                A view of the port of Manzanillo, Mexico’s largest container port. Colima, Mexico, Febrero 2024. CRISIS
+                GROUP / Angélica Ospina-Escobar
             </div>
         </div>
 
         <div class="legend" id="mexlegend">
 
             <div class="legend-item">
-                An intervened fentanyl laboratory in Mexicali, Baja California, Mexico. March 2024. CRISIS GROUP / Angélica Ospina-Escobar
+                An intervened fentanyl laboratory in Mexicali, Baja California, Mexico. March 2024. CRISIS GROUP /
+                Angélica Ospina-Escobar
             </div>
         </div>
 
         <div class="legend" id="michlegend">
 
             <div class="legend-item">
-                The leader of a criminal group and one of his guards walk through a nightly back alley of a town they control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.
+                The leader of a criminal group and one of his guards walk through a nightly back alley of a town they
+                control. Michoacán state, Mexico. July 2023. CRISIS GROUP / Falko Ernst.
             </div>
         </div>
 
         <div class="legend" id="stlegend">
 
             <div class="legend-item">
-                A person is using fentanyl on Park Avenue in downtown Portland, Oregon, U.S., on January 23, 2024. Patrick T. Fallon / AFP
+                A person is using fentanyl on Park Avenue in downtown Portland, Oregon, U.S., on January 23, 2024.
+                Patrick T. Fallon / AFP
             </div>
         </div>
 
@@ -238,14 +263,24 @@
 
         if (config.footer) {
             var footerText = document.createElement('p');
-            footerText.innerHTML = config.footer;
+            var footerContent = config.footer;
+            footerText.innerHTML = footerContent;
             footer.appendChild(footerText);
         }
 
         if (footer.innerText.length > 0) {
-            footer.classList.add('main');
+            footer.classList.add(config.theme);
             footer.setAttribute('id', 'footer');
-            story.appendChild(footer);
+
+            // Create and insert the image above the footer
+            var footerImage = document.createElement('img');
+            footerImage.src = 'images/30yr.png'; // Replace with your image path
+            footerImage.alt = 'Footer Image'; // Accessibility text
+            footerImage.classList.add('footer-30yr'); // Add a class for styling
+
+            // Append the image and footer to the story element
+            story.appendChild(footerImage); // Add image above the footer
+            story.appendChild(footer); // Add the footer
         }
 
         mapboxgl.accessToken = config.accessToken;
@@ -276,7 +311,7 @@
         var scroller = scrollama();
 
         map.on('load', () => {
-            const geojsonUrl = 'data/antwerp.geojson'; 
+            const geojsonUrl = 'data/antwerp.geojson';
 
             fetch(geojsonUrl)
                 .then(response => {

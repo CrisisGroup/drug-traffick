@@ -212,6 +212,14 @@ p {
     margin-left: 5%;
 }
 
+.footer-30yr {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    z-index: 6;
+    position: relative;
+}
+
 #features {
     padding: 0 0;
 }
