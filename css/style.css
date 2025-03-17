@@ -313,6 +313,7 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    text-shadow: 0 0 10px #000000;
 }
 
 .legend-item span {
@@ -364,7 +365,6 @@ p {
     margin-top: 25px;
     display: block;
     text-indent: 0;
-    /* Moves the first character slightly left */
     padding-left: 0;
 }
 

@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm88z6qex004101qrh5ykfwsf',
+    style: 'mapbox://styles/daltonwb/cm8daizdw00se01s53s958fer',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -43,7 +43,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Trafficking requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + 'Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. <strong>Competition among criminal groups for a piece of the market is fierce.</strong>',
+            description: '<span class="violence">Trafficking</span> requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + '<strong>Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. Competition among criminal groups for a piece of the market is fierce.</strong>',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
@@ -256,6 +256,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -288,6 +293,11 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -296,13 +306,13 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            legendId: 'guayalegend',
+            legendId: '',
             description: '<h4 class="subheds-black">COCA PROCESSING AND TRANSPORTATION — NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
-                center: [-79.90439, -2.19141],
-                zoom: 13,
-                pitch: 68,
-                bearing: 60,
+                center: [-75.71666, 0.31527],
+                zoom: 8.75,
+                pitch: 42,
+                bearing: 40,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -315,27 +325,12 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "los_rios_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "los-rios",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "ecuador",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "latam_cities_label",
+                    layer: "putumayo_borders",
                     duration: 2000,
                     opacity: 1,
                 },
                 {
-                    layer: "latam_cities",
+                    layer: "putumayo",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -343,6 +338,16 @@ var config = {
             onChapterExit: [
                 {
                     layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo_borders",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -354,7 +359,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'National level criminal groups manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
+            description: 'National level criminal groups <strong>manage the transport of product from labs to exit points abroad, whether ports, airports, or land borders.</strong>' + '<br /><br />' + 'Ensuring the drug moves seamlessly across roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has successfully done in Colombia, for example.' + '<br /><br />' + 'National criminal groups fight bitter turf wars to secure routes. Battles in Los Ríos, Ecuador, between Los Lobos and Los Choneros gangs are one example of this.',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -484,9 +489,18 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -495,8 +509,8 @@ var config = {
             hidden: false,
             title: '',
             legendId: 'buenaleg',
-            image: 'images/drug-scrolly-3.jpg',
-            description: '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span><h4 class="subheds-black">SUBCONTRACTORS — LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.',
+            image: '',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS — LOCAL GANGS</h4>' + 'Local gangs often control the sale sites where drugs are exported. Port cities and major airports can fall under the control of these bands, which are compensated for their services by national groups.' + '<br /><br />' + 'Their role is to ensure safe passage of the drug to the port of exit, to occasionally store drug locally to avoid police detection, and to load it onto shipping containers or speed boats. In some cases, these small criminal groups are paid in drugs and arms.<br /><br />' + '<img src="images/drug-scrolly-3.jpg" />' + '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span>',
             location: {
                 center: [-77.07005, 3.89126],
                 zoom: 14.75,
@@ -553,12 +567,13 @@ var config = {
             hidden: false,
             title: '',
             image: '',
+            legendId: 'guayalegend',
             description: 'Gangs also manage local drug sales. National groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.' + '<br /><br />' + 'Local gangs exert deep levels of violence against the civilian population, including recruiting young people and children, sexual violence, and extortion. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
-                center: [-80.58557, -2.48186],
-                zoom: 7,
-                pitch: 50,
-                bearing: -12,
+                center: [-79.90439, -2.19141],
+                zoom: 13,
+                pitch: 68,
+                bearing: 60,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -566,19 +581,24 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: "los_rios_fill",
+                    layer: "satellite",
                     duration: 2000,
                     opacity: 1,
+                },
+                {
+                    layer: "los_rios_fill",
+                    duration: 2000,
+                    opacity: 0,
                 },
                 {
                     layer: "los-rios",
                     duration: 2000,
-                    opacity: 1,
+                    opacity: 0,
                 },
                 {
                     layer: "ecuador",
                     duration: 2000,
-                    opacity: 1,
+                    opacity: 0,
                 },
                 {
                     layer: "latam_cities_label",
@@ -593,67 +613,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: "admin_0_thick",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "los_rios_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "los-rios",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "ecuador",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "colombia_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "putumayo",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "putumayo_province_fill",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "latam_cities_label",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "trunk-case-roads",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "trunk-roads",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "bridge-case",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "bridge-trunk",
+                    layer: "satellite",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -677,10 +637,18 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -912,7 +880,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
-
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -947,6 +919,11 @@ var config = {
                 },
                 {
                     layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "background",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1150,9 +1127,18 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1440,6 +1426,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -1474,6 +1465,11 @@ var config = {
                 },
                 {
                     layer: "nicaragua_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "background",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1570,7 +1566,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
@@ -1670,6 +1670,11 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1677,13 +1682,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'images/drug_scrolly-10.jpg',
-            description: '<span class="photocaption">A member of the Sinaloa Cartel shows packs with methamphetamine in a safe house in Culiacan, Mexico, April 4, 2022. MEXICO-DRUGS/CHAPITOS REUTERS/Alexandre Meneghini</span><h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.',
+            image: '',
+            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + 'The brand name criminal groups buy fentanyl for trafficking northward to the United States. Often, the drug is branded or packaged with the name of the drug trafficking organisation, such as Sinaloa or CJNG, in order to avoid it being filtered off or sold to rivals.<br /><br />' + '<img src="images/drug_scrolly-10.jpg" />' + '<span class="photocaption">Packets of fentanyl mostly in powder form and methamphetamine, which U.S. Customs and Border Protection say they seized from a truck crossing into Arizona from Mexico, is on display during a news conference at the Port of Nogales, Arizona, U.S., January 31, 2019. Courtesy U.S. Customs and Border Protection/Handout via REUTERS.</span>',
             location: {
-                center: [-107.42561, 24.79061],
-                zoom: 12.5,
-                pitch: 53,
-                bearing: 18,
+                center: [-110.94404, 31.33258],
+                zoom: 13,
+                pitch: 50,
+                bearing: 35,
                 speed: .4
             },
             mapAnimation: 'flyTo',
@@ -1696,14 +1701,29 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "background",
+                    layer: "nogales",
                     duration: 2000,
-                    opacity: 0,
+                    opacity: 1,
+                },
+                {
+                    layer: "nogales_label",
+                    duration: 2000,
+                    opacity: 1,
                 },
             ],
             onChapterExit: [
                 {
                     layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "nogales",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "nogales_label",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1848,7 +1868,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'michlegend',
-            description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS — NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.<br /><br />',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -1990,6 +2010,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -2017,6 +2042,11 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2024,8 +2054,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'images/drug_scrolly-11.jpg',
-            description: '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span><h4 class="subheds-black">DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.',
+            image: '',
+            description: '<h4 class="subheds-black">DOMESTIC MARKET</h4>' + 'The domestic drug market is a major money-maker in Mexico, and its management is largely subcontracted out to local criminal franchises trusted by larger cartels.' + '<br /><br />' + 'The “jefe de plaza”, or local criminal boss, sets the rules for how the drug and all other businesses function.<br /><br />' + '<img src="images/drug_scrolly-11.jpg" />' + '<span class="photocaption">A member of the NGO Programa Companeros, which implements programs and projects aimed at vulnerable social groups, shows a vial of Naloxone used to rapidly reverse opioid overdose, in Ciudad Juarez, Mexico July 24, 2023. REUTERS/Jose Luis Gonzalez</span>',
             location: {
                 center: [-106.52386, 31.73490],
                 zoom: 12.5,
@@ -2042,10 +2072,30 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
                     layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -2173,8 +2223,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'images/drug-scrolly-2.jpg',
-            description: '<span class="photocaption">Smoke billows over Culiacán as cartel gunmen set vehicles and buildings ablaze during a violent clash with Mexican security forces, in October 2019. CRISIS GROUP</span><h4 class="subheds-black">FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.',
+            image: '',
+            description: '<h4 class="subheds-black">FINANCIERS</h4>' + 'As with cocaine, the fentanyl market needs white collar business people to function.' + '<br /><br />' + 'These individuals are the brokers who move in precursors, the money launderers who have access to the banking system, and the accountants who manage payment along complex supply chains.<br /><br />' + '<img src="images/drug-scrolly-2.jpg" />' + '<span class="photocaption">Smoke billows over Culiacán as cartel gunmen set vehicles and buildings ablaze during a violent clash with Mexican security forces, in October 2019. CRISIS GROUP</span>',
             location: {
                 center: [-103.26209, 18.21721],
                 zoom: 5,
@@ -2210,10 +2260,18 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -2234,10 +2292,18 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
-                
+                {
+                    layer: "background",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         }
     ]
