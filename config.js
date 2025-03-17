@@ -309,10 +309,10 @@ var config = {
             legendId: '',
             description: '<h4 class="subheds-black">COCA PROCESSING AND TRANSPORTATION — NATIONAL GROUPS</h4>' + 'Coca base paste is <strong>refined into cocaine in labs under the protection of national criminal groups</strong>, such as the Comandos de la Frontera in Colombia’s Putumayo or Los Choneros in Ecuador.' + '<br /><br />' + 'These groups impose control through rules such as limiting citizens’ movements, imposing norms about behaviour, monitoring local civil society, and extorting residents or businesses.',
             location: {
-                center: [-75.71666, 0.31527],
-                zoom: 8.75,
-                pitch: 42,
-                bearing: 40,
+                center: [-75.36377, 0.48407],
+                zoom: 13.5,
+                pitch: 0,
+                bearing: 0,
                 speed: .4
             },
             mapAnimation: 'flyTo',
