@@ -483,8 +483,8 @@ p {
 #COCAINE .main {
     background-color: #944141 !important;
     background-image: url(../images/cocaine_intro.png);
-    background-position: center right;
-    background-size: 50%;
+    background-position: 85% 40%;
+    background-size: 45%;
     background-repeat: no-repeat;
     border: none !important;
     height: 100vh;
@@ -562,8 +562,8 @@ p {
 #FENTANYL .main {
     background-color: #944141 !important;
     background-image: url(../images/fentanyl_intro.png);
-    background-position: right center;
-    background-size: contain;
+    background-position: 90% 40%;
+    background-size: 50%;
     background-repeat: no-repeat;
     border: none !important;
     height: 100vh;
