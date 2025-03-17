@@ -2222,7 +2222,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '',
+            description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#cocaine">explore the routes of cocaine</a>.',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
