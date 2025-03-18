@@ -694,7 +694,41 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "putumayo_province_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-case-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "trunk-roads",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-case",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "bridge-trunk",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 
