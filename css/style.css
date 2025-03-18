@@ -201,10 +201,7 @@ p {
     z-index: 5;
     background-color: #181818;
     border-radius: 0;
-    border-top: solid 2px #6B6B6B;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+    border: none;
     margin-top: -5px;
 }
 
@@ -277,6 +274,7 @@ p {
 
 .step img {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 

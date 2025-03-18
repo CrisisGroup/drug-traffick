@@ -764,46 +764,6 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "santa_marta_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "santa_marta",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "cartagena_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "cartagena",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "guaymas_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "guaymas",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "manzanillo_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "manzanillo",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
                     layer: "trans-atl-routes",
                     duration: 2000,
                     opacity: 1,
@@ -845,11 +805,6 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 1,
-                },
                 {
                     layer: "US_fill",
                     duration: 2000,
@@ -897,11 +852,6 @@ var config = {
                 },
             ],
             onChapterExit: [
-                {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 0,
-                },
                 {
                     layer: "US_fill",
                     duration: 2000,
@@ -2149,6 +2099,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -2188,6 +2143,11 @@ var config = {
                 },
                 {
                     layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "satellite",
                     duration: 2000,
                     opacity: 0,
                 },
