@@ -445,13 +445,6 @@
                 window[chapter.callback]();
             }
 
-            if (chapter.location.bbox) {
-                map.fitBounds(chapter.location.bbox, {
-                    padding: { top: 10, bottom: 25, left: 15, right: 5 },
-                    maxZoom: 12
-                });
-            }
-
             if (chapter.rotateAnimation) {
                 map.once('moveend', () => {
                     const center = map.getCenter();

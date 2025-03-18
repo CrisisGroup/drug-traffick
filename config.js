@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm8dca82b000e01pafwm5ga6h',
+    style: 'mapbox://styles/daltonwb/cm8emr880004u01pagwx6hkda',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -1528,7 +1528,7 @@ var config = {
                 },
             ],
             onChapterExit: [
-/*                 {
+                 {
                     layer: "mexico_fill",
                     duration: 2000,
                     opacity: 0,
@@ -1552,7 +1552,7 @@ var config = {
                     layer: "manzanillo_label",
                     duration: 2000,
                     opacity: 0,
-                }, */
+                },
                 {
                     layer: "admin_0_thick",
                     duration: 2000,
@@ -1939,6 +1939,16 @@ var config = {
                     duration: 2000,
                     opacity: 0,
                 },
+                {
+                    layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "latam_cities_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ]
         },
         {
@@ -1975,19 +1985,14 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "latam_cities",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "latam_cities_label",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
                     layer: "background",
                     duration: 2000,
                     opacity: 1,
+                },
+                {
+                    layer: "satellite",
+                    duration: 2000,
+                    opacity: 0,
                 },
             ],
             onChapterExit: [
@@ -2058,11 +2063,6 @@ var config = {
                 },
             ],
             onChapterExit: [
-                {
-                    layer: "satellite",
-                    duration: 2000,
-                    opacity: 0,
-                },
                 {
                     layer: "latam_cities_label",
                     duration: 2000,
