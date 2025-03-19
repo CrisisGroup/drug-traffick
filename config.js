@@ -1486,7 +1486,7 @@ var config = {
             image: '',
             description: '<h4 class="subheds-black">CONTROLLING PORTS — NATIONAL/LOCAL GROUPS</h4>' + 'Bringing chemicals into Mexico often requires control of <span class="traffick">ports</span>, infiltration of port staff and corruption in the security forces.' + '<br /><br />' + '<strong>Criminal groups compete fiercely for this control, fighting turf wars and threatening officials who do not comply with their demands.</strong>',
             location: {
-                center: [13.664,-88.632],
+                center: [-88.632, 13.664],
                 zoom: 4.3,
                 pitch: 0,
                 bearing: 0,
@@ -1513,11 +1513,6 @@ var config = {
                 },
                 {
                     layer: "manzanillo",
-                    duration: 2000,
-                    opacity: 1,
-                },
-                {
-                    layer: "bq",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -1560,11 +1555,6 @@ var config = {
                 },
                 {
                     layer: "manzanillo",
-                    duration: 2000,
-                    opacity: 0,
-                },
-                {
-                    layer: "bq",
                     duration: 2000,
                     opacity: 0,
                 },
