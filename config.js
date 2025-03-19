@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm8g1jz9g00yq01sad2ho8tic',
+    style: 'mapbox://styles/daltonwb/cm8g214io009h01qw82z6cihp',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -1512,6 +1512,16 @@ var config = {
                     opacity: 1,
                 },
                 {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "colombia",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "mexico",
                     duration: 2000,
                     opacity: 1,
@@ -1555,6 +1565,16 @@ var config = {
                 },
                 {
                     layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "colombia",
                     duration: 2000,
                     opacity: 0,
                 },
