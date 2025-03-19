@@ -452,7 +452,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group]”.' + '<em>— Social leader in Sucre, Colombia, an area where the Gaitanista Army operates</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community … They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group]”.' + '<em>— Social leader in Sucre, Colombia, an area where the Gaitanista Army operates</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -568,7 +568,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'guayalegend',
-            description: 'Gangs also manage <strong><span class="traffick">local drug sales</span>. Larger criminal groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.</strong>' + '<br /><br />' + '<strong>Local gangs coerce and intimidate the civilian population</strong>, including by recruiting young people and children, committing acts of sexual violence, and running extortion rackets. The violent turf wars to secure sales often affect the communities where they operate.',
+            description: 'Gangs also manage <strong><span class="traffick">local drug sales.</span> Larger criminal groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.</strong>' + '<br /><br />' + '<strong>Local gangs coerce and intimidate the civilian population</strong>, including by recruiting young people and children, committing acts of sexual violence, and running extortion rackets. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
                 center: [-79.90439, -2.19141],
                 zoom: 13,
@@ -625,7 +625,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<em>— Local female labor leader in Guayaquil, Ecuador</em>',
+            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<em>— Local female labour leader in Guayaquil, Ecuador</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -1068,7 +1068,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain”.' + '<em>— Former gang member, Guayaquil, Ecuador</em>',
+            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople … and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain”.' + '<em>— Former gang member, Guayaquil, Ecuador</em>',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1522,7 +1522,12 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "guatemala",
+                    layer: "guatemala_fill",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras_fill",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -1579,12 +1584,22 @@ var config = {
                     opacity: 0,
                 },
                 {
+                    layer: "honduras_fill",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
                     layer: "colombia",
                     duration: 2000,
                     opacity: 0,
                 },
                 {
                     layer: "guatemala",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guatemala_fill",
                     duration: 2000,
                     opacity: 0,
                 },
@@ -1624,8 +1639,8 @@ var config = {
             legendId: 'manlegend',
             description: '<br />In Manzanillo, Colima state, Mexico, for example, <strong>local groups appear to pay the Jalisco New Generation Cartel for permission to operate around the port,</strong> providing services to traffickers and stealing cargo from rivals.<br /><br />',
             location: {
-                center: [-108.27634, 19.53883],
-                zoom: 5,
+                center: [-88.632, 13.664],
+                zoom: 4.3,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -1947,7 +1962,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'michlegend',
-            description: '<h4 class="subheds-black">SAFE PASSAGE - SUBCONTRACTORS – NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.<br /><br />',
+            description: '<h4 class="subheds-black">SAFE PASSAGE – SUBCONTRACTORS AND NATIONAL/LOCAL GROUPS</h4>' + 'At certain points of shipment, international traffickers may need to pay local criminals for safe passage, or even hand over the product to them for movement from point A to point B.<br /><br />',
             location: {
                 center: [-108.47314, 25.33654],
                 zoom: 5.15,
@@ -2477,7 +2492,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#COCAINE">explore the routes of cocaine</a>.',
+            description: 'Read our full report on drug trafficking, <a href="https://www.crisisgroup.org/latin-america-caribbean/colombia-ecuador-guatemala-honduras-mexico/108-curbing-violence-latin-america-drug-trafficking-hotspots" target="_blank">Curbing Violence in Latin America’s Drug Trafficking Hotspots</a>' + '<br /><br />' + 'Or <a href="#COCAINE">explore The Cocaine Route</a>.',
             location: {
                 center: [-111.27566, 21.29812],
                 zoom: 2.4,
