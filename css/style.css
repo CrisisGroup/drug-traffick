@@ -368,6 +368,15 @@ p {
 
 /* SPAN HIGHLIGHTS/INLINE STYLES */
 
+.traffick {
+    background-color: rgba(212,130,132,.4);
+    color: #d48284;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
 .violence {
     background-color: #382323;
     color: #B25954;
@@ -440,7 +449,7 @@ p {
     background-image: url(../images/globe.png);
     background-position: 90% 40%;
     height: 100vh;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 

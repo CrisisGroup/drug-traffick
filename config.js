@@ -43,7 +43,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<span class="violence">Trafficking</span> requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + '<strong>Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. Competition among criminal groups for a piece of the market is fierce.</strong>',
+            description: '<span class="traffick">Trafficking</span> requires a network of criminal groups spread across continents. Any one supply chain from production to sale might include a dozen players, with only fluid alliances of convenience to hold them together.' + '<br /><br />' + '<strong>Security operations in one geographic area tend to push traffickers to new theatres, as criminals hopscotch between jurisdictions to avoid policing. Competition among criminal groups for a piece of the market is fierce.</strong>',
             location: {
                 center: [-37.04445, 38.28202],
                 zoom: 2.4,
