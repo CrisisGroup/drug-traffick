@@ -1970,6 +1970,11 @@ var config = {
                     opacity: 0,
                 },
                 {
+                    layer: "honduras",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
                     layer: "US_fill",
                     duration: 2000,
                     opacity: 0,
@@ -2019,6 +2024,11 @@ var config = {
                 },
                 {
                     layer: "mexico",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "honduras",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -2080,6 +2090,11 @@ var config = {
                     opacity: 1,
                 },
                 {
+                    layer: "honduras",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "mexico",
                     duration: 2000,
                     opacity: 1,
@@ -2108,6 +2123,11 @@ var config = {
                 },
                 {
                     layer: "mexico",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "honduras",
                     duration: 2000,
                     opacity: 0,
                 },
