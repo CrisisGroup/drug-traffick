@@ -1641,6 +1641,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 {
@@ -1680,6 +1685,11 @@ var config = {
                 },
                 {
                     layer: "nogales_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "admin_0_thick",
                     duration: 2000,
                     opacity: 1,
                 },
