@@ -369,8 +369,8 @@ p {
 /* SPAN HIGHLIGHTS/INLINE STYLES */
 
 .traffick {
-    background-color: rgba(212,130,132,.4);
-    color: #d48284;
+    background-color: #944141;
+    color: #fff;
     font-weight: bold;
     padding: 2px 6px;
     border-radius: 10px;
