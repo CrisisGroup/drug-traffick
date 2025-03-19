@@ -929,7 +929,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last-minute change of route.',
+            description: '<h4 class="subheds-black">STORAGE AND RE-ROUTING</h4>' + 'At times, national criminal groups, for example in Central America, store product coming from third countries or become engaged if there is a last-minute change of route.' + '<br /><br />' + 'Central American countries are mainly transit and storage hubs, but narco-investors have also been responsible for expanding coca crops in Honduras and Guatemala.',
             location: {
                 center: [-93.04360, 14.41479],
                 zoom: 6.25,
@@ -1486,8 +1486,8 @@ var config = {
             image: '',
             description: '<h4 class="subheds-black">CONTROLLING PORTS — NATIONAL/LOCAL GROUPS</h4>' + 'Bringing chemicals into Mexico often requires control of <span class="traffick">ports</span>, infiltration of port staff and corruption in the security forces.' + '<br /><br />' + '<strong>Criminal groups compete fiercely for this control, fighting turf wars and threatening officials who do not comply with their demands.</strong>',
             location: {
-                center: [-108.27634, 19.53883],
-                zoom: 5,
+                center: [13.664,-88.632],
+                zoom: 4.3,
                 pitch: 0,
                 bearing: 0,
                 speed: .4
@@ -1517,7 +1517,22 @@ var config = {
                     opacity: 1,
                 },
                 {
-                    layer: "manzanillo_label",
+                    layer: "bq",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "santa_marta",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "cartagena",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guaymas",
                     duration: 2000,
                     opacity: 1,
                 },
@@ -1549,7 +1564,22 @@ var config = {
                     opacity: 0,
                 },
                 {
-                    layer: "manzanillo_label",
+                    layer: "bq",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "santa_marta",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "cartagena",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guaymas",
                     duration: 2000,
                     opacity: 0,
                 },
