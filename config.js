@@ -214,7 +214,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“This is the big problem of coca – it brings all the bad things. It is the precursor of everything bad – armed groups in our areas, recruitment, the lure of fast money”.' + '— <em>Former female coca farmer in Guaviare, Colombia</em>',
+            description: '“This is the big problem of coca – it brings all the bad things. It is the precursor of everything bad – armed groups in our areas, recruitment, the lure of fast money”.' + '<em>— Former female coca farmer in Guaviare, Colombia</em>',
             location: {
                 center: [-77.37878, 2.93177],
                 zoom: 5,
@@ -359,7 +359,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'These criminal organisations also manage the transport of cocaine from labs to exit points, whether ports, airports or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly along roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has done in Colombia, for example.' + '<br /><br />' + '<strong>National criminal groups fight bitter turf wars to secure <span class="trafficking">routes</span>.</strong> Battles in <span class="coca">Los Ríos</span>, Ecuador, between the Los Lobos and Los Choneros gangs are one example.',
+            description: 'These criminal organisations also manage the transport of cocaine from labs to exit points, whether ports, airports or land borders.' + '<br /><br />' + 'Ensuring the drug moves seamlessly along roads requires corrupting local security forces and authorities, as the Gaitanista Army (or Gulf Clan) has done in Colombia, for example.' + '<br /><br />' + '<strong>National criminal groups fight bitter turf wars to secure <span class="traffick">routes</span>.</strong> Battles in <span class="coca">Los Ríos</span>, Ecuador, between the Los Lobos and Los Choneros gangs are one example.',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -452,7 +452,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group]”.' + '— <em>Social leader in Sucre, Colombia, an area where the Gaitanista Army operates</em>',
+            description: '“When the armed group first came, they offered support to the society, and this discourse was intended to penetrate the community… They have monitors at the entrances and exits of each community, they have total control. We as civil society have to hold our meetings outside the area, or we cannot meet, because the information filters [to the group]”.' + '<em>— Social leader in Sucre, Colombia, an area where the Gaitanista Army operates</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -625,7 +625,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '— <em>Local female labor leader in Guayaquil, Ecuador</em>',
+            description: '“The gangs ask for extortion payments, they recruit, they kidnap, and there are hitmen. They arrive to take over the neighbourhood and start kidnapping everyone who does not pay them. There were four adolescents, ages 15, 16 and 18, who were found on the road dead, apparently because they did not pay the extortion. Kids are recruited into these groups from inside their schools”.' + '<em>— Local female labor leader in Guayaquil, Ecuador</em>',
             location: {
                 center: [-80.58557, -2.48186],
                 zoom: 7,
@@ -827,7 +827,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The Mexicans have divided the enclaves up between them; they intervene and look for strong leaders and groups, and the logic then is to double them in size. Including with the influx of so many guns and of drug trafficking”.' + '— <em>Former gang member, Guayaquil, Ecuador</em>',
+            description: '“The Mexicans have divided the enclaves up between them; they intervene and look for strong leaders and groups, and the logic then is to double them in size. Including with the influx of so many guns and of drug trafficking”.' + '<em>— Former gang member, Guayaquil, Ecuador</em>',
             location: {
                 center: [-85.90954, 11.70422],
                 zoom: 4.1,
@@ -986,7 +986,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">FINANCIERS</h4>' + '<strong>Traffickers rely on a network of business people and white-collar criminals to invest in their operations,</strong> gain access to the banking system, create shell companies and launder the money earned along the supply chain.',
+            description: '<h4 class="subheds-black">FINANCIERS</h4>' + '<strong><span class="traffick">Traffickers</span> rely on a network of business people and white-collar criminals to invest in their operations,</strong> gain access to the banking system, create shell companies and launder the money earned along the supply chain.',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1068,7 +1068,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain”.' + '— <em>Former gang member, Guayaquil, Ecuador</em>',
+            description: '“The financiers are the white collar [criminals], they are businesspeople who come to [move drugs] as a business. They start to make contact with smaller businesspeople… and they offer them a percentage of profits. Those smaller groups provide the logistics, and from there, they will subcontract other smaller logistics providers. From there, these [smaller providers] hire trusted contacts in urban neighbourhoods and offer them a percentage. Everything is a logistics chain”.' + '<em>— Former gang member, Guayaquil, Ecuador</em>',
             location: {
                 center: [-48.84508, 18.79418],
                 zoom: 2.5,
@@ -1372,7 +1372,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The group uses brokers in other countries to purchase precursor chemicals from [Chinese] companies on the Cartel’s behalf. Those brokers also assist with ensuring that the precursor chemicals are successfully transported from China to the Cartel in Mexico”.' + '— <em>U.S. indictment of Los Chapitos</em>',
+            description: '“The group uses brokers in other countries to purchase precursor chemicals from [Chinese] companies on the Cartel’s behalf. Those brokers also assist with ensuring that the precursor chemicals are successfully transported from China to the Cartel in Mexico”.' + '<em>— U.S. indictment of Los Chapitos</em>',
             location: {
                 center: [-137.88054, 28.74828],
                 zoom: 3.5,
@@ -1624,7 +1624,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“No one hears or sees anything. They find a laboratory in the neighbourhood and no one dares to say a thing. Why? Because all of us are scared. These criminals have the support of [parts of the] state, and we have nothing”.' + '— <em>Local journalist in Baja California</em>',
+            description: '“No one hears or sees anything. They find a laboratory in the neighbourhood and no one dares to say a thing. Why? Because all of us are scared. These criminals have the support of [parts of the] state, and we have nothing”.' + '<em>— Local journalist in Baja California</em>',
             location: {
                 center: [-108.27634, 19.53883],
                 zoom: 5,
@@ -1719,7 +1719,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'sinlegend',
-            description: 'Transport to market along roads and by boat to the U.S. largely falls under the jurisdiction of these international traffickers, who <strong>fight violent battles to control turf and secure routes.</strong>' + '<br /><br />' + '<strong>Infiltration of the security forces and local authorities is also fundamental for business.</strong>',
+            description: 'Transport to market along roads and by boat to the U.S. largely falls under the jurisdiction of these international traffickers, who <strong>fight violent battles to control turf and secure <span class="traffick">routes</span>.</strong>' + '<br /><br />' + '<strong>Infiltration of the security forces and local authorities is also fundamental for business.</strong>',
             location: {
                 center: [-108.47314, 25.33654],
                 zoom: 5.15,
@@ -1967,7 +1967,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up’”.' + '— <em>Local journalist in Baja California</em>',
+            description: '“In areas controlled by Los Rusos, the city is so heavily monitored that ‘the community knows that they cannot so much as think about putting on music that the group doesn’t like, because they will be picked up’”.' + '<em>— Local journalist in Baja California</em>',
             llocation: {
                 center: [-102.37980, 24.23877],
                 zoom: 5,
@@ -2320,7 +2320,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world”.' + '— <em>U.S. indictment of Chapitos</em>',
+            description: '“The Cartel has the largest international operations of any drug trafficking organization, with a criminal network encompassing nearly every major city from New York to Buenos Aires and a presence in more than 45 countries around the world”.' + '<em>— U.S. indictment of Chapitos</em>',
             location: {
                 center: [-111.27566, 21.29812],
                 zoom: 2.4,
