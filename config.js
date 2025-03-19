@@ -1434,6 +1434,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "road-draw-line",
+                    duration: 2000,
+                    opacity: 0,
+                },
             ],
             onChapterExit: [
                 {
@@ -1757,6 +1762,26 @@ var config = {
                     opacity: 1,
                 },
                 {
+                    layer: "guaymas",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "guaymas_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
+                    layer: "manzanillo_label",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "sinaloa_fill",
                     duration: 2000,
                     opacity: 1,
@@ -1860,6 +1885,26 @@ var config = {
                 },
                 {
                     layer: "bridge-trunk",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guaymas",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guaymas_label",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "manzanillo",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "manzanillo_label",
                     duration: 2000,
                     opacity: 0,
                 },
