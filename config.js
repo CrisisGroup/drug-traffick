@@ -1522,6 +1522,11 @@ var config = {
                     opacity: 1,
                 },
                 {
+                    layer: "guatemala",
+                    duration: 2000,
+                    opacity: 1,
+                },
+                {
                     layer: "mexico",
                     duration: 2000,
                     opacity: 1,
@@ -1575,6 +1580,11 @@ var config = {
                 },
                 {
                     layer: "colombia",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "guatemala",
                     duration: 2000,
                     opacity: 0,
                 },
