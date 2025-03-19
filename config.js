@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cm8fzrm7200ye01sagiii0dn6',
+    style: 'mapbox://styles/daltonwb/cm8g1jz9g00yq01sad2ho8tic',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     projection: 'globe',
     inset: false,
@@ -510,7 +510,7 @@ var config = {
             title: '',
             legendId: 'buenaleg',
             image: '',
-            description: '<h4 class="subheds-black">SUBCONTRACTORS — LOCAL GANGS</h4>' + '<strong>Local gangs often control the sites from which drugs are exported. Port cities and major airports can fall under the sway of these bands, which are compensated for their services by the larger groups.</strong>' + '<br /><br />' + 'Their role is to ensure safe passage of cocaine to the port of exit, to occasionally store it locally to avoid police detection, and to load packages onto shipping containers or speedboats. In some cases, these small criminal groups are paid in drugs and arms.<br /><br />' + '<img src="images/drug-scrolly-3.jpg" />' + '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span>',
+            description: '<h4 class="subheds-black">SUBCONTRACTORS — LOCAL GANGS</h4>' + '<strong>Local gangs often control the sites from which drugs are exported. <span class="traffick">Port cities</span> and major airports can fall under the sway of these bands, which are compensated for their services by the larger groups.</strong>' + '<br /><br />' + 'Their role is to ensure safe passage of cocaine to the port of exit, to occasionally store it locally to avoid police detection, and to load packages onto shipping containers or speedboats. In some cases, these small criminal groups are paid in drugs and arms.<br /><br />' + '<img src="images/drug-scrolly-3.jpg" />' + '<span class="photocaption">Buenaventura, once the most violent city in Colombia, has experimented since 2022 with negotiations between the two dominant gangs. Homicide rates have fallen significantly, though residents say extortion and recruitment are up. January 2024. CRISIS GROUP / Elizabeth Dickinson</span>',
             location: {
                 center: [-77.07005, 3.89126],
                 zoom: 14.75,
@@ -568,7 +568,7 @@ var config = {
             title: '',
             image: '',
             legendId: 'guayalegend',
-            description: 'Gangs also manage <strong>local drug sales. Larger criminal groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.</strong>' + '<br /><br />' + '<strong>Local gangs coerce and intimidate the civilian population</strong>, including by recruiting young people and children, committing acts of sexual violence, and running extortion rackets. The violent turf wars to secure sales often affect the communities where they operate.',
+            description: 'Gangs also manage <strong><span class="traffick">local drug sales</span>. Larger criminal groups often provide drugs on consignment to the smaller bands, who sell it for a portion of the profits.</strong>' + '<br /><br />' + '<strong>Local gangs coerce and intimidate the civilian population</strong>, including by recruiting young people and children, committing acts of sexual violence, and running extortion rackets. The violent turf wars to secure sales often affect the communities where they operate.',
             location: {
                 center: [-79.90439, -2.19141],
                 zoom: 13,
@@ -1681,7 +1681,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + '<strong>The brand-name criminal groups buy fentanyl for trafficking northward to the United States.</strong> Often, the drug is packaged with the name of the drug trafficking organisation, such as Sinaloa or Jalisco New Generation Cartel, so that it will not be pilfered or sold to rivals.<br /><br />' + '<img src="images/drug_scrolly-10.jpg" />' + '<span class="photocaption">Packets of fentanyl mostly in powder form and methamphetamine, which U.S. Customs and Border Protection say they seized from a truck crossing into Arizona from Mexico, is on display during a news conference at the Port of Nogales, Arizona, U.S. January 2019. Courtesy U.S. Customs and Border Protection / Handout via REUTERS.</span>',
+            description: '<h4 class="subheds-black">PACKAGING AND TRANSPORTATION — INTERNATIONAL TRAFFICKERS</h4>' + '<strong>The brand-name criminal groups buy fentanyl for <span class="traffick">trafficking</span> northward to the United States.</strong> Often, the drug is packaged with the name of the drug trafficking organisation, such as Sinaloa or Jalisco New Generation Cartel, so that it will not be pilfered or sold to rivals.<br /><br />' + '<img src="images/drug_scrolly-10.jpg" />' + '<span class="photocaption">Packets of fentanyl mostly in powder form and methamphetamine, which U.S. Customs and Border Protection say they seized from a truck crossing into Arizona from Mexico, is on display during a news conference at the Port of Nogales, Arizona, U.S. January 2019. Courtesy U.S. Customs and Border Protection / Handout via REUTERS.</span>',
             location: {
                 center: [-110.94404, 31.33258],
                 zoom: 13,
