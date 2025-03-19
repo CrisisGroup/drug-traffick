@@ -447,9 +447,9 @@ p {
 #INTRO02 .main {
     border: none !important;
     background-image: url(../images/globe.png);
-    background-position: 90% 40%;
+    background-position: 100% 40%;
     height: 100vh;
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
 }
 
