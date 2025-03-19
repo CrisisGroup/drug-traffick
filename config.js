@@ -2091,6 +2091,11 @@ var config = {
                     duration: 2000,
                     opacity: 1,
                 },
+                {
+                    layer: "admin_0_thick",
+                    duration: 2000,
+                    opacity: 1,
+                },
             ],
             onChapterExit: [
                 {
@@ -2100,6 +2105,11 @@ var config = {
                 },
                 {
                     layer: "latam_cities",
+                    duration: 2000,
+                    opacity: 0,
+                },
+                {
+                    layer: "admin_0_thick",
                     duration: 2000,
                     opacity: 0,
                 },
